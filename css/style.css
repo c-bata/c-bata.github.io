@@ -31,7 +31,11 @@
   padding-bottom: 5px;
   border-bottom: 2px #333 dotted; }
 
-dl.definition {
-  margin: 10px; }
+.definition > dt {
+  margin-top: 10px; }
+.definition > dd {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 20px; }
 
 /*# sourceMappingURL=style.css.map */
