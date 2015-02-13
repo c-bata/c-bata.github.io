@@ -1,3 +1,141 @@
+body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  line-height: 1;
+  word-break: break-all; }
+
+div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, input, textarea {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  vertical-align: baseline;
+  background: transparent; }
+
+img {
+  vertical-align: bottom; }
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section, div, address, iframe, canvas, hr, textarea {
+  display: block;
+  line-height: 1; }
+
+iframe {
+  max-width: 100% !important; }
+
+a, label {
+  cursor: pointer; }
+
+blockquote {
+  padding: 0;
+  margin: 0;
+  display: block; }
+
+address, em {
+  font-style: normal; }
+
+hr {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+textarea {
+  resize: vertical;
+  overflow: hidden;
+  -webkit-appearance: none;
+  border: none; }
+
+input, button, select {
+  vertical-align: middle;
+  border-radius: 0px;
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-appearance: none; }
+
+table {
+  border-collapse: collapse; }
+
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  line-height: 1; }
+
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  min-height: 100%; }
+
+body {
+  font-size: 14px;
+  line-height: 1; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+  width: 980px; }
+
+/* heading, pargraph, link text */
+h1 {
+  margin: 10px 0px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700; }
+
+h2 {
+  margin: 10px 0px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700; }
+
+h3 {
+  margin: 10px 0px 1px;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 400; }
+
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700; }
+
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700; }
+
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700; }
+
+p {
+  font-size: 14px; }
+
+a {
+  font-size: 14px; }
+
+#footer {
+  margin-bottom: 30px;
+  margin-top: 30px; }
+  #footer > p {
+    text-align: center; }
+
 .heading-primary {
   font-size: 28px;
   font-weight: bold;
@@ -33,16 +171,7 @@
   padding-bottom: 5px;
   border-bottom: 2px #333 dotted; }
 
-.definition > dt {
-  margin-top: 10px; }
-.definition > dd {
-  margin-bottom: 20px;
-  padding-top: 10px; }
-
-#footer {
-  margin-bottom: 30px;
-  margin-top: 30px; }
-  #footer > p {
-    text-align: center; }
+ul {
+  padding-left: 10px; }
 
 /*# sourceMappingURL=style.css.map */

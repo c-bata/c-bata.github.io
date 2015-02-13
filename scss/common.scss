@@ -1,3 +1,9 @@
+@import "base/setting";
+@import "base/reset";
+@import "base/basic";
+
+@import "layout/contents";
+@import "layout/footer";
+
 @import "modules/heading";
 @import "modules/list";
-@import "layout/footer";
