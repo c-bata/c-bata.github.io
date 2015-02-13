@@ -156,6 +156,11 @@ a {
   a:hover {
     color: #ffffff; }
 
+.fa {
+  font-size: 18px;
+  margin-right: 10px;
+  width: 20px; }
+
 .contents {
   padding-left: 60px; }
   .contents > .top-title {
