@@ -4,5 +4,10 @@
 
   & > p {
     text-align: center;
+    color: $base_color;
+  }
+
+  & > p:hover {
+    color: $accent_color;
   }
 }

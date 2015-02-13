@@ -2,8 +2,9 @@
 @import "base/reset";
 @import "base/basic";
 
+@import "layout/wrapper";
 @import "layout/contents";
+@import "layout/side";
 @import "layout/footer";
 
-@import "modules/heading";
 @import "modules/list";

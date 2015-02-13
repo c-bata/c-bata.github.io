@@ -7,6 +7,75 @@ html{
 }
 body {
   font-size: 14px;
+  font-family: 'Prata', serif;
   line-height: 1;
+  background-color: #000000;
+  color: $base_color;
 }
 
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+
+  & > .grid {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
+    &-3 {
+      width: 25%;
+      float: left;
+    }
+    &-9 {
+      width: 75%;
+      float: left;
+    }
+  }
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+  width: $size_max;
+}
+
+/* heading, pargraph, link text */
+h1 {
+  margin: 10px 0px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  margin: 10px 0px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin: 10px 0px 1px;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 400;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
