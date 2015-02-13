@@ -1,0 +1,22 @@
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.grid {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  &-3, &-9 {
+    float: left;
+  }
+
+  &-3 {
+    width: 25%;
+  }
+  &-9 {
+    width: 75%;
+  }
+}
