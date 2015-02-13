@@ -210,7 +210,8 @@ a {
     margin-bottom: 40px; }
     .contents > ul > li {
       list-style-type: none;
-      padding: 10px 0; }
+      padding: 10px 0;
+      line-height: 150%; }
   .contents > p {
     line-height: 200%;
     margin-bottom: 20px; }
