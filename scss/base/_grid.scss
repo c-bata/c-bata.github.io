@@ -1,3 +1,5 @@
+$grid_size: 12;
+
 .row {
   margin-right: -15px;
   margin-left: -15px;
@@ -9,14 +11,10 @@
   padding-right: 15px;
   padding-left: 15px;
 
-  &-3, &-9 {
-    float: left;
-  }
-
-  &-3 {
-    width: 25%;
-  }
-  &-9 {
-    width: 75%;
+  @for $i from 1 through $grid_size {
+    &-#{$i} {
+      float: left;
+      width: $i / $grid_size * 100%;
+    }
   }
 }

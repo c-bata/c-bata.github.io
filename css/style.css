@@ -140,15 +140,45 @@ h6 {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px; }
-  .grid-3, .grid-9 {
-    float: left; }
+  .grid-1 {
+    float: left;
+    width: 8.33333%; }
+  .grid-2 {
+    float: left;
+    width: 16.66667%; }
   .grid-3 {
+    float: left;
     width: 25%; }
+  .grid-4 {
+    float: left;
+    width: 33.33333%; }
+  .grid-5 {
+    float: left;
+    width: 41.66667%; }
+  .grid-6 {
+    float: left;
+    width: 50%; }
+  .grid-7 {
+    float: left;
+    width: 58.33333%; }
+  .grid-8 {
+    float: left;
+    width: 66.66667%; }
   .grid-9 {
+    float: left;
     width: 75%; }
+  .grid-10 {
+    float: left;
+    width: 83.33333%; }
+  .grid-11 {
+    float: left;
+    width: 91.66667%; }
+  .grid-12 {
+    float: left;
+    width: 100%; }
 
 .wrapper {
-  padding-top: 150px; }
+  padding: 150px 0; }
 
 a {
   font-size: 14px;
@@ -160,7 +190,7 @@ a {
 .fa {
   font-size: 18px;
   margin-right: 10px;
-  width: 20pxt; }
+  width: 20px; }
 
 .contents {
   padding-left: 60px; }
