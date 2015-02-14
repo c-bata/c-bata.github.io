@@ -1,6 +1,7 @@
 /* google web fonts */
 @import url(http://fonts.googleapis.com/css?family=Prata);
 @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300);
 /* color */
 body {
   -webkit-text-size-adjust: 100%;
@@ -83,9 +84,10 @@ html {
 
 body {
   font-size: 14px;
-  font-family: 'Prata', serif;
+  font-family: 'Robot Slab:300', serif;
   line-height: 1;
-  background-color: #000000;
+  background-image: url("/img/background.png");
+  background-size: 400px;
   color: #848999; }
 
 .container {
@@ -218,6 +220,7 @@ a {
 
 .sidebar {
   padding: 30px 20px;
+  font-family: 'Prata', serif;
   border-right: 2px solid #ffffff; }
   .sidebar > ul {
     list-style-type: none;
@@ -239,7 +242,8 @@ a {
 
 .heading-primary {
   color: #ffffff;
-  padding: 30px 0; }
+  padding: 30px 0;
+  font-family: 'Prata', serif; }
 
 ul {
   padding-left: 10px; }

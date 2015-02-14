@@ -7,9 +7,10 @@ html{
 }
 body {
   font-size: 14px;
-  font-family: 'Prata', serif;
+  font-family: 'Robot Slab:300', serif;
   line-height: 1;
-  background-color: #000000;
+  background-image: url("/img/background.png");
+  background-size: 400px;
   color: $base_color;
 }
 
