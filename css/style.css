@@ -86,8 +86,7 @@ body {
   font-size: 14px;
   font-family: 'Robot Slab:300', serif;
   line-height: 1;
-  background-image: url("/img/background.png");
-  background-size: 400px;
+  background-color: #1d1d1d;
   color: #848999; }
 
 .container {
