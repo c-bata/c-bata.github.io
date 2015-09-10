@@ -14,7 +14,7 @@ var paths = {
 };
 
 gulp.task('build', function() {
-  watchify(browserify(paths.SRC + 'main.jsx', { debug: true })
+  watchify(browserify(paths.SRC + 'main.js', { debug: true })
     .transform(babelify)
     .bundle()
     .on("error", function (err) { console.log("Error : " + err.message); })
