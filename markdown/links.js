@@ -1,4 +1,4 @@
-# Masashi Shibata
+export default `# Masashi Shibata
 
 a.k.a id: c-bata or c_bata_
 
@@ -8,5 +8,5 @@ a.k.a id: c-bata or c_bata_
 - BitBucket: [c-bata](https://bitbucket.org/c-bata/)
 - Email: contact (at) c-bata.link
 
-Please feel free to contact me !
+Please feel free to contact me !`
 

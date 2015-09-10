@@ -1,4 +1,4 @@
-# Development
+export default `# Development
 
 Macbook Air 11インチ(2012)で開発しています。
 Pythonの開発はPyCharm、AndroidはAndroid Studioを使っています。
@@ -11,5 +11,5 @@ VCSはGitを使い、Webアプリ等はHerokuを利用して公開していま�
 - HTML5，CSS3/SASS
 - JavaScript/jQuery/CoffeeScript/Backbone.js (New!)
 - Java/Android
-- Arduino
+- Arduino`
 

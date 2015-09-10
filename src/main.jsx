@@ -1,24 +1,17 @@
 import React  from 'react';
 import marked from 'marked';
 
-var defaultText = `# Masashi Shibata
+import article_links       from '../markdown/links';
+import article_about       from '../markdown/about';
+import article_development from '../markdown/development';
+import article_research    from '../markdown/research';
 
-a.k.a id: c-bata or c_bata_
-
-- Twitter: [@c_bata_](http://twitter.com/c_bata_)
-- Facebook: [masashi.cbata](http://facebook.com/masashi.cbata)
-- Github: [c-bata](http://github.com/c-bata)
-- BitBucket: [c-bata](https://bitbucket.org/c-bata/)
-- Email: contact (at) c-bata.link
-
-Please feel free to contact me !
-`
 
 class MarkdownPreview extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            text: defaultText,
+            text: article_links,
         };
     }
     render() {
