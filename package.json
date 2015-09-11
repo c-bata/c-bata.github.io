@@ -5,7 +5,7 @@
   "main": "src/jsx/*.jsx",
   "scripts": {
     "build": "gulp build",
-    "test": "echo notest",
+    "compass": "compass watch",
     "server": "python -m SimpleHTTPServer 8000"
   },
   "repository": {
