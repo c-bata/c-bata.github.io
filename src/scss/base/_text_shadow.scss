@@ -1,0 +1,11 @@
+/**
+ * ずるいテキストシャドウ
+ * http://www.atmarkit.co.jp/ait/articles/1212/06/news004_2.html
+ */
+
+@mixin ts-000($op : .4){
+  text-shadow: 1px -1px rgba(0, 0, 0, $op);
+}
+@mixin ts-fff($op : .7){
+  text-shadow: -1px 1px rgba(0, 0, 0, $op);
+}
