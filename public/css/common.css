@@ -68,6 +68,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* google web fonts */
 /* color */
+/* file path */
 /* line 1, ../../src/scss/base/_basic.scss */
 * {
   box-sizing: border-box;
@@ -84,8 +85,8 @@ body {
   font-size: 14px;
   font-family: 'Robot Slab:300', serif;
   line-height: 1;
-  background-color: #1d1d1d;
-  color: #848999;
+  background-image: url("../../../img/background.png");
+  color: #432723;
 }
 
 /* line 16, ../../src/scss/base/_basic.scss */
@@ -227,7 +228,7 @@ h6 {
 /* line 1, ../../src/scss/layout/_contents.scss */
 a {
   font-size: 14px;
-  color: #848999;
+  color: #432723;
   text-decoration: none;
 }
 /* line 6, ../../src/scss/layout/_contents.scss */
@@ -263,7 +264,7 @@ a:hover {
 /* line 34, ../../src/scss/layout/_contents.scss */
 .contents > ul {
   font-size: 14px;
-  color: #848999;
+  color: #432723;
   margin-bottom: 40px;
 }
 /* line 39, ../../src/scss/layout/_contents.scss */
@@ -287,7 +288,7 @@ a:hover {
 /* line 6, ../../src/scss/layout/_side.scss */
 .sidebar > ul {
   list-style-type: none;
-  color: #848999;
+  color: #432723;
 }
 /* line 10, ../../src/scss/layout/_side.scss */
 .sidebar > ul > li {
@@ -307,7 +308,7 @@ a:hover {
 /* line 5, ../../src/scss/layout/_footer.scss */
 #footer > p {
   text-align: center;
-  color: #848999;
+  color: #432723;
 }
 /* line 10, ../../src/scss/layout/_footer.scss */
 #footer > p:hover {

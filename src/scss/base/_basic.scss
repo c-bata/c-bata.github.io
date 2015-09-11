@@ -9,7 +9,7 @@ body {
   font-size: 14px;
   font-family: 'Robot Slab:300', serif;
   line-height: 1;
-  background-color: #1d1d1d;
+  background-image: url($img_path + "background.png");
   color: $base_color;
 }
 
