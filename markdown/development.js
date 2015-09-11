@@ -1,15 +1,66 @@
-export default `# Development
+export default `
+# Development
 
-Macbook Air 11インチ(2012)で開発しています。
-Pythonの開発はPyCharm、AndroidはAndroid Studioを使っています。
-それ以外で悩んだらVimを使うことが多いです。
-VCSはGitを使い、Webアプリ等はHerokuを利用して公開しています。
-また最近、Travis CIを使い始めました(ユニットテスト走らせてるだけですが...)。
-主に使う言語・フレームワークは以下のような感じです。
+#### Machine
 
-- Python/Flask/Django/Pandas/matplotlib
-- HTML5，CSS3/SASS
-- JavaScript/jQuery/CoffeeScript/Backbone.js (New!)
-- Java/Android
-- Arduino`
+- Macbook Air 11インチ(2012)
 
+#### Languages
+
+- **Python**
+- JavaScript
+- Java
+- CSS
+- Arduino
+
+
+#### Framework and Libraries
+
+**Python**
+
+- **Django**
+- **Pandas**
+- Flask
+- Bottle
+- SQLAlchemy
+- unittest / pytest
+
+
+**JavaScript**
+
+- **React.js**
+- Babel(ES6)
+- Electron
+- Backbone.js
+- jQuery
+- mocha
+- power-assert/espower-babel
+
+**Java**
+
+- Android
+
+**CSS**
+
+- Sass
+- Compass
+- Twitter Bootstrap
+
+
+#### Infrastructure
+
+- Ansible
+- Vagrant
+- Heroku
+- AWS / EC2
+
+
+#### Others
+
+- Git
+- Mercurial
+- Vim
+- jetbrains IDE
+- Travis CI
+
+`
