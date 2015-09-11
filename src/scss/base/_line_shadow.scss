@@ -1,3 +1,8 @@
+/**
+ * ずるい線
+ * http://www.atmarkit.co.jp/ait/articles/1212/06/news004_2.html
+ */
+
 @mixin line-top($op1: .2, $op2: .3){
   border-top: 1px solid rgba(0, 0, 0, $op1);
   @include box-shadow(rgba(255, 255, 255, $op2) 0 1px 0 inset);
