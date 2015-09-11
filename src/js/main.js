@@ -1,11 +1,10 @@
 import marked from 'marked';
+import d3     from 'd3';
 
 import article_links    from '../../markdown/links';
 import article_about    from '../../markdown/about';
 import article_develop  from '../../markdown/development';
 import article_research from '../../markdown/research';
-
-let content_area = document.getElementById('content');
 
 let pages = [
     { content: article_links,    button: document.getElementById('links')       },
@@ -14,11 +13,13 @@ let pages = [
     { content: article_research, button: document.getElementById('research')    }
 ];
 
+let content_area = d3.select("#content");
+
 pages.map((page) => {
     page.button.addEventListener("click", () => {
-        content_area.innerHTML = marked(page.content);
+        content_area.html(marked(page.content));
     });
 });
 
-content_area.innerHTML = marked(article_links);
+content_area.html(marked(article_links));
 
