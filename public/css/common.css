@@ -284,7 +284,10 @@ a:hover {
 .sidebar {
   padding: 30px 20px;
   font-family: 'Prata', serif;
-  border-right: 2px solid #ffffff;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: rgba(255, 255, 255, 0.3) -1px 0 0 inset;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.3) -1px 0 0 inset;
+  box-shadow: rgba(255, 255, 255, 0.3) -1px 0 0 inset;
 }
 /* line 6, ../../src/scss/layout/_side.scss */
 .sidebar > ul {
