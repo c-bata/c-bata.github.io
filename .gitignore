@@ -9,10 +9,10 @@
 
 
 # JavaScript
-
 node_modules/
 *.js.map
 
 
 # Sass
-.sass-cache
+.sass-cache/
+*.css.map
