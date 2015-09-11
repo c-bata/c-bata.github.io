@@ -1,11 +1,11 @@
 import marked from 'marked';
 
-import article_links    from '../markdown/links';
-import article_about    from '../markdown/about';
-import article_develop  from '../markdown/development';
-import article_research from '../markdown/research';
+import article_links    from '../../markdown/links';
+import article_about    from '../../markdown/about';
+import article_develop  from '../../markdown/development';
+import article_research from '../../markdown/research';
 
-let content_area       = document.getElementById('content');
+let content_area = document.getElementById('content');
 
 let pages = [
     { content: article_links,    button: document.getElementById('links')       },

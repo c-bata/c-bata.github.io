@@ -4,7 +4,7 @@
   "description": "This is my portfolio web site.",
   "main": "src/jsx/*.jsx",
   "scripts": {
-    "build": "gulp build",
+    "js-build": "gulp watch",
     "compass": "compass watch",
     "server": "python -m SimpleHTTPServer 8000"
   },
@@ -29,4 +29,3 @@
     "watchify": "^3.3.1"
   }
 }
-
