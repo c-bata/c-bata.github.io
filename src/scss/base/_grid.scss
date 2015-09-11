@@ -3,6 +3,7 @@ $grid_size: 12;
 .row {
   margin-right: -15px;
   margin-left: -15px;
+  @include clearfix;
 }
 
 .grid {
