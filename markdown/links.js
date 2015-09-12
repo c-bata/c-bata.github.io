@@ -1,7 +1,4 @@
 export default `
-
-## Masashi Shibata
-
 ## Social Account
 
 a.k.a id: c-bata or \`c_bata_\`

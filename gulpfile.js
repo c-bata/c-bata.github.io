@@ -1,11 +1,11 @@
 var gulp       = require('gulp');
 var browserify = require('browserify');
 var babelify   = require('babelify');
-var uglify     = require('gulp-uglify')
+var uglify     = require('gulp-uglify');
 var source     = require('vinyl-source-stream');
-var buffer     = require('vinyl-buffer')
+var buffer     = require('vinyl-buffer');
 var watchify   = require('gulp-watchify');
-var sourcemaps = require('gulp-sourcemaps')
+var sourcemaps = require('gulp-sourcemaps');
 
 var paths = {
   OUT: "bundle.js",

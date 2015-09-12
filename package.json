@@ -1,7 +1,7 @@
 {
-  "name": "Portfolio",
+  "name": "c-bata portfolio",
   "version": "0.0.1",
-  "description": "This is my portfolio web site.",
+  "description": "This is c-bata's portfolio web site.",
   "main": "src/jsx/*.jsx",
   "scripts": {
     "js-build": "gulp watch",
