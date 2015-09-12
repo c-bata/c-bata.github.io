@@ -2,15 +2,15 @@
 
 @import "compass/reset";
 @import "base/setting";
-@import "base/line_shadow";
-@import "base/text_shadow";
 @import "base/basic";
-@import "base/grid";
+@import "base/utils/grid";
+@import "base/utils/line_shadow";
+@import "base/utils/text_shadow";
 
 @import "layout/wrapper";
 @import "layout/contents";
 @import "layout/side";
 @import "layout/footer";
-@import "layout/heading";
+@import "modules/heading";
 
 @import "modules/list";
