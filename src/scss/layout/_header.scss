@@ -1,0 +1,15 @@
+header {
+  margin: 100px 0 50px 0;
+
+  .title {
+    text-align: center;
+  }
+
+  .title-image {
+    @include border-radius(50%);
+    width: 150px;
+    border: 3px solid #b0430a;
+    display: block;
+    margin: 30px auto;
+  }
+}
