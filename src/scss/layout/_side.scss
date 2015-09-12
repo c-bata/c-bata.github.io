@@ -3,17 +3,17 @@
   font-family: 'Prata', serif;
   @include line-right(.2, .3);
 
-  & > ul {
-    list-style-type: none;
+  ul {
+    list-style: none none;
     color: $base_color;
+  }
 
-    & > li {
-      margin-top: 15px;
-      padding: 8px 0;
+  li {
+    margin-top: 15px;
+    padding: 8px 0;
+  }
 
-      & > a {
-        font-size: 18px;
-      }
-    }
+  a {
+    font-size: 18px;
   }
 }

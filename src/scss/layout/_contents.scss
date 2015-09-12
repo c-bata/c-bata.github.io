@@ -1,29 +1,20 @@
-a {
-  font-size: 14px;
-  color: $base_color;
-  text-decoration: none;
-
-  &:hover {
-    color: $accent_color;
-  }
-}
-
 .contents {
   padding-left: 60px;
 
-  & > ul {
+  ul {
+    padding-left: 30px;
     font-size: 14px;
     color: $base_color;
     margin-bottom: 10px;
-
-    & > li {
-      list-style-type: disc;
-      padding: 10px 0;
-      line-height: 150%;
-    }
   }
 
-  & > p {
+  li {
+    list-style-type: disc;
+    padding: 10px 0;
+    line-height: 150%;
+  }
+
+  p {
     line-height: 200%;
     margin-bottom: 20px;
   }

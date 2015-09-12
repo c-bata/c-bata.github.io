@@ -20,6 +20,16 @@ body {
   width: $size_max;
 }
 
+a {
+  font-size: 14px;
+  color: $base_color;
+  text-decoration: none;
+
+  &:hover {
+    color: $accent_color;
+  }
+}
+
 /* heading, pargraph, link text */
 h1 {
   margin: 10px 0px;
