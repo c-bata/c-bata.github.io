@@ -1,9 +1,9 @@
 export default `
-# Development
+## スキル・開発環境
 
-#### Machine
+Python/Djangoを中心に勉強してきました。
+研究でPandas使ってデータ分析したり、そこで書いたコードのバリデーション部分とかを切り出してPyPIで公開したりしてます。
 
-- Macbook Air 11インチ(2012)
 
 #### Languages
 
@@ -62,5 +62,4 @@ export default `
 - Vim
 - jetbrains IDE
 - Travis CI
-
 `

@@ -1,7 +1,5 @@
 export default `
-## Social Account
-
-a.k.a id: c-bata or \`c_bata_\`
+## Welcome!
 
 - Github: [c-bata](http://github.com/c-bata)
 - Twitter: [\`@c_bata_\`](http://twitter.com/c_bata_)
