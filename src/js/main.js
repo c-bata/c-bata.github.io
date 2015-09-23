@@ -1,12 +1,12 @@
 import marked from 'marked';
 import d3     from 'd3';
 
-import article_about    from '../../markdown/about';
-import article_develop  from '../../markdown/development';
+import article_about    from '../../contents/about';
+import article_develop  from '../../contents/development';
 
 let pages = [
-    { content: article_about,    buttonId: 'about',       label: "トップ" },
-    { content: article_develop,  buttonId: 'development', label: "スキル" },
+    { content: marked(article_about), buttonId: 'about',       label: "TOP" },
+    { content: article_develop,       buttonId: 'development', label: "SKILL" }
 ];
 
 // sidebar
@@ -24,7 +24,7 @@ let content_area = d3.select("#content");
 pages.map((page) => {
     let button = document.getElementById(page.buttonId);
     button.addEventListener("click", () => {
-        content_area.html(marked(page.content));
+        content_area.html(page.content);
     });
 });
 
