@@ -1,0 +1,14 @@
+ul.tag-list {
+  overflow: hidden;
+  padding-left: 0;
+
+  li {
+    list-style-type: none;
+    float: left;
+    margin: 3px;
+    padding: 5px 8px;
+    background-color: #b0430a;
+    border-radius: 5px;
+    color: #eee;
+  }
+}
