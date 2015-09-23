@@ -10,10 +10,10 @@ export default `
 <h4>Languages</h4>
 
 <ul class="tag-list">
-    <li>Python</li>
+    <li><b>Python</b></li>
     <li>JavaScript</li>
-    <li>Java</li>
     <li>CSS</li>
+    <li>Java</li>
 </ul>
 
 <h4>Framework and Libraries</h4>
@@ -42,18 +42,18 @@ export default `
     <li>power-assert/espower-babel</li>
 </ul>
 
-<p>Java</p>
-
-<ul class="tag-list">
-    <li>Android</li>
-</ul>
-
 <p>CSS</p>
 
 <ul class="tag-list">
     <li>Sass</li>
     <li>Compass</li>
     <li>Twitter Bootstrap</li>
+</ul>
+
+<p>Java</p>
+
+<ul class="tag-list">
+    <li>Android</li>
 </ul>
 
 
@@ -72,6 +72,7 @@ export default `
     <li>Git</li>
     <li>Mercurial</li>
     <li>Vim</li>
+    <li>tmux</li>
     <li>Jetbrains IDE</li>
     <li>Travis CI</li>
 </ul>
