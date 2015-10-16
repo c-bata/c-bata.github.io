@@ -31,8 +31,8 @@ Please feel free to contact me !
 
 ## アルバイト・インターン
 
-- BePROUD part-time (2015.03 - now)
-- Teamlab Internship(2015.09 - now)
+- BePROUD part-time (2015.03 - 2015.10)
+- Teamlab Internship(2015.09 - 2015.09)
 - CyberAgent Internship(2015.08 - 2015.09)
 
 

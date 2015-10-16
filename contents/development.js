@@ -64,6 +64,7 @@ export default `
     <li>Vagrant</li>
     <li>Heroku</li>
     <li>AWS/EC2</li>
+    <li>nginx</li>
 </ul>
 
 <h4>Others</h4>
