@@ -5,7 +5,7 @@ import article_about    from '../../contents/about';
 import article_develop  from '../../contents/development';
 
 let pages = [
-    { content: marked(article_about), buttonId: 'about',       label: "TOP" },
+    { content: article_about, buttonId: 'about',       label: "TOP" },
     { content: article_develop,       buttonId: 'development', label: "SKILL" }
 ];
 

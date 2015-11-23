@@ -14,6 +14,8 @@ export default `
     <li>JavaScript</li>
     <li>CSS</li>
     <li>Java</li>
+    <li>awk</li>
+    <li>bash</li>
 </ul>
 
 <h4>Framework and Libraries</h4>
@@ -21,9 +23,9 @@ export default `
 <p>Python</p>
 
 <ul class="tag-list">
-    <li>Django</li>
-    <li>Pandas</li>
-    <li>Flask</li>
+    <li><b>Django</b></li>
+    <li><b>Pandas</b></li>
+    <li><b>Flask</b></li>
     <li>Bottle</li>
     <li>SQLAlchemy</li>
     <li>unittest/pytest</li>
@@ -33,9 +35,9 @@ export default `
 <p>JavaScript</p>
 
 <ul class="tag-list">
-    <li>React.js</li>
+    <li><b>React.js</b></li>
     <li>AngularJS</li>
-    <li>Babel(ES6)</li>
+    <li><b>Babel(ES6)</b></li>
     <li>Backbone.js</li>
     <li>jQuery</li>
     <li>mocha</li>
@@ -45,7 +47,7 @@ export default `
 <p>CSS</p>
 
 <ul class="tag-list">
-    <li>Sass</li>
+    <li><b>Sass</b></li>
     <li>Compass</li>
     <li>Twitter Bootstrap</li>
 </ul>
@@ -53,28 +55,45 @@ export default `
 <p>Java</p>
 
 <ul class="tag-list">
-    <li>Android</li>
+    <li><b>Android</b></li>
 </ul>
 
 
 <h4>Infrastructure</h4>
 
 <ul class="tag-list">
-    <li>Ansible</li>
+    <li><b>Ansible</b></li>
     <li>Vagrant</li>
+    <li>Docker</li>
     <li>Heroku</li>
     <li>AWS/EC2</li>
-    <li>nginx</li>
+    <li>Nginx</li>
+    <li>uWSGI</li>
 </ul>
 
-<h4>Others</h4>
+
+<h4>Database</h4>
 
 <ul class="tag-list">
-    <li>Git</li>
-    <li>Mercurial</li>
+    <li>MySQL</li>
+    <li>PostgreSQL</li>
+    <li>SQLite3</li>
+    <li>MongoDB</li>
+    <li>Redis</li>
+</ul>
+
+
+<h4>開発環境</h4>
+
+<ul class="tag-list">
+    <li>PyCharm</li>
+    <li>Android Studio</li>
     <li>Vim</li>
     <li>tmux</li>
-    <li>Jetbrains IDE</li>
+    <li>zsh</li>
+    <li>Git</li>
+    <li>Mercurial</li>
     <li>Travis CI</li>
 </ul>
+
 `
