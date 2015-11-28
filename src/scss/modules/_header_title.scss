@@ -1,7 +1,7 @@
 header {
   .title {
     text-align: center;
-    color: $sub_accent_color;
+    color: $color_primary;
     font-size: 38px;
     font-weight: 200;
   }
@@ -9,7 +9,7 @@ header {
   .title-image {
     @include border-radius(50%);
     width: 150px;
-    border: 2px solid $sub_accent_color;
+    border: 2px solid $color_primary;
     display: block;
     margin: 30px auto;
   }

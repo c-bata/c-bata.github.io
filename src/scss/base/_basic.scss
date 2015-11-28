@@ -9,8 +9,8 @@ body {
   font-size: 14px;
   font-family: 'Noto Sans Japanese', sans-serif;
   line-height: 1;
-  background-image: url($img_path + "background.png");
-  color: $base_color;
+  background-color: $color_background;
+  color: $color_primary_text;
 }
 
 .container {
@@ -20,13 +20,17 @@ body {
   width: $size_max;
 }
 
+b {
+  font-weight: bold;
+}
+
 a {
   font-size: 14px;
-  color: $base_color;
+  color: $color_secondary_text;
   text-decoration: none;
 
   &:hover {
-    color: $accent_color;
+    color: $color_primary;
   }
 }
 
