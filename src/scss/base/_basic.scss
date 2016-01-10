@@ -11,6 +11,15 @@ body {
   line-height: 1;
   background-color: $color_background;
   color: $color_primary_text;
+
+  /* sticky footer with flexbox */
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 .container {
