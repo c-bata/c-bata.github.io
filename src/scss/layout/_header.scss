@@ -21,28 +21,34 @@ header {
       padding-left: 15px;
     }
   }
+}
 
+.nav {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-end;  // 右寄せ
+  align-items: center;  // 垂直方向に中央寄せ
+
+  button {
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 16px;
+    padding: 15px;
+    color: #ffffff;
+  }
+
+  img {
+    max-height: 40px;
+  }
+
+  li:first-child {
+    margin-right: auto;  // 1つめの要素だけ左寄せ
+  }
+}
+
+@media screen and (max-width: 500px) {
   .nav {
-    display: flex;
-    display: -webkit-flex;
-    justify-content: flex-end;  // 右寄せ
-    align-items: center;  // 垂直方向に中央寄せ
-
-    button {
-      border-style: none;
-      background-color: rgba(0, 0, 0, 0);
-      font-size: 16px;
-      padding: 15px;
-      color: #ffffff;
-    }
-
-    img {
-      max-height: 40px;
-    }
-
-    li:first-child {
-      margin-right: auto;  // 1つめの要素だけ左寄せ
-    }
+    flex-direction: column;
   }
 }
 
