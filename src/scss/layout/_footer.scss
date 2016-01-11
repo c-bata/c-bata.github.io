@@ -1,7 +1,10 @@
 footer {
-  margin: 50px 0;
+  margin: 30px 0;
+  padding: 30px 0;
+  @include line-top(.1, 1.0);
 
   .copyright {
     text-align: center;
+    color: $color_hint_text;
   }
 }
