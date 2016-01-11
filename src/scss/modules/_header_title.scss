@@ -1,7 +1,7 @@
 header {
   .title {
     text-align: center;
-    color: $color_primary;
+    color: $color_primary_text;
     font-size: 38px;
     font-weight: 200;
   }
@@ -9,7 +9,7 @@ header {
   .title-image {
     @include border-radius(50%);
     width: 150px;
-    border: 2px solid $color_primary;
+    border: 6px solid #ffffff;
     display: block;
     margin: 30px auto;
   }
