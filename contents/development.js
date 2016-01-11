@@ -10,7 +10,7 @@ export default `
 <h4>Languages</h4>
 
 <ul class="tag-list">
-    <li><b>Python</b></li>
+    <li>Python</li>
     <li>JavaScript</li>
     <li>CSS</li>
     <li>Java</li>
@@ -23,9 +23,9 @@ export default `
 <p>Python</p>
 
 <ul class="tag-list">
-    <li><b>Django</b></li>
-    <li><b>Pandas</b></li>
-    <li><b>Flask</b></li>
+    <li>Django</li>
+    <li>Pandas</li>
+    <li>Flask</li>
     <li>Bottle</li>
     <li>SQLAlchemy</li>
     <li>unittest/pytest</li>
@@ -35,10 +35,8 @@ export default `
 <p>JavaScript</p>
 
 <ul class="tag-list">
-    <li><b>React.js</b></li>
-    <li>AngularJS</li>
-    <li><b>Babel(ES6)</b></li>
-    <li>Backbone.js</li>
+    <li>React.js</li>
+    <li>Babel(ES6)</li>
     <li>jQuery</li>
     <li>mocha</li>
     <li>power-assert/espower-babel</li>
@@ -47,9 +45,8 @@ export default `
 <p>CSS</p>
 
 <ul class="tag-list">
-    <li><b>Sass</b></li>
+    <li>Sass</li>
     <li>Compass</li>
-    <li>Twitter Bootstrap</li>
 </ul>
 
 <p>Native Application</p>
@@ -63,7 +60,7 @@ export default `
 <h4>Infrastructure</h4>
 
 <ul class="tag-list">
-    <li><b>Ansible</b></li>
+    <li>Ansible</li>
     <li>Vagrant</li>
     <li>Docker</li>
     <li>Heroku</li>
@@ -91,10 +88,8 @@ export default `
     <li>Android Studio</li>
     <li>Vim</li>
     <li>tmux</li>
-    <li>zsh</li>
     <li>Git</li>
     <li>Mercurial</li>
-    <li>Travis CI</li>
 </ul>
 
 `
