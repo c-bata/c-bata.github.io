@@ -20,7 +20,7 @@ export default `
 
 <h4>Framework and Libraries</h4>
 
-<p>Python</p>
+<p>Server Side</p>
 
 <ul class="tag-list">
     <li>Django</li>
@@ -28,23 +28,16 @@ export default `
     <li>Flask</li>
     <li>Bottle</li>
     <li>SQLAlchemy</li>
-    <li>unittest/pytest</li>
 </ul>
 
 
-<p>JavaScript</p>
+<p>Web Frontend</p>
 
 <ul class="tag-list">
     <li>React.js</li>
     <li>Babel(ES6)</li>
     <li>jQuery</li>
     <li>mocha</li>
-    <li>power-assert/espower-babel</li>
-</ul>
-
-<p>CSS</p>
-
-<ul class="tag-list">
     <li>Sass</li>
     <li>Compass</li>
 </ul>
