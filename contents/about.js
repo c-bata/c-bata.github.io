@@ -16,30 +16,26 @@ export default `
 <p>Please feel free to contact me !</p>
 
 
-<h2>所属</h2>
-
-<ul>
-    <li>明石高専 専攻科 1年</li>
-    <li>BeProud アルバイト</li>
-    <li>PyCon JP 2015 メディア・スタッフ</li>
-    <li>akashi.py (Python勉強会) 主催</li>
-    <li>Code for Kosen</li>
-</ul>
-
-
-<h2>学歴・職歴</h2>
-
+<h2>学歴</h2>
 <ul>
     <li>国立明石工業高等専門学校 機械・電子システム工学専攻 (2015.04 - 2017.03 卒業見込み)</li>
     <li>国立明石工業高等専門学校 電気情報工学科 (2010.04 - 2015.03)</li>
 </ul>
 
-<h2>アルバイト・インターン</h2>
-
+<h2>職歴</h2>
 <ul>
     <li>BePROUD part-time (2015.03 - 2015.10)</li>
     <li>Teamlab Internship(2015.09 - 2015.09)</li>
     <li>CyberAgent Internship(2015.08 - 2015.09)</li>
+</ul>
+
+
+<h2>コミュニティ活動</h2>
+
+<ul>
+    <li>PyCon JP 2015 メディア・スタッフ</li>
+    <li>akashi.py (Python勉強会) 主催</li>
+    <li>Code for Kosen</li>
 </ul>
 
 
