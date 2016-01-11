@@ -1,13 +1,11 @@
 export default `
-<h2>Skills</h2>
+## Skills
 
-<p>
-    Python/Djangoを中心に勉強してきました。
-    研究でPandas使ってデータ分析したり、そこで書いたコードのバリデーション部分とかを切り出してPyPIで公開したりしてます。
-</p>
+Python/Djangoを中心に勉強してきました。
+研究でPandas使ってデータ分析したり、そこで書いたコードのバリデーション部分とかを切り出してPyPIで公開したりしてます。
 
 
-<h4>Languages</h4>
+### Languages
 
 <ul class="tag-list">
     <li>Python</li>
@@ -18,9 +16,9 @@ export default `
     <li>bash</li>
 </ul>
 
-<h4>Framework and Libraries</h4>
+### Framework and Libraries
 
-<p>Server Side</p>
+Server Side
 
 <ul class="tag-list">
     <li>Django</li>
@@ -31,7 +29,7 @@ export default `
 </ul>
 
 
-<p>Web Frontend</p>
+Web Frontend
 
 <ul class="tag-list">
     <li>React.js</li>
@@ -42,7 +40,7 @@ export default `
     <li>Compass</li>
 </ul>
 
-<p>Native Application</p>
+Native Applicatio
 
 <ul class="tag-list">
     <li>Android(Java)</li>
@@ -50,7 +48,7 @@ export default `
 </ul>
 
 
-<h4>Infrastructure</h4>
+### Infrastructure
 
 <ul class="tag-list">
     <li>Ansible</li>
@@ -63,7 +61,7 @@ export default `
 </ul>
 
 
-<h4>Database</h4>
+### Database
 
 <ul class="tag-list">
     <li>MySQL</li>
@@ -74,7 +72,7 @@ export default `
 </ul>
 
 
-<h4>開発環境</h4>
+### 開発環境
 
 <ul class="tag-list">
     <li>PyCharm</li>
