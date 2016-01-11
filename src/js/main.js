@@ -3,14 +3,12 @@ import d3     from 'd3';
 import $      from 'jquery';
 
 // contents
-import article_about    from '../../contents/about';
-import article_develop  from '../../contents/development';
-import article_works    from '../../contents/works';
+import article_about from '../../contents/about';
+import article_works from '../../contents/works';
 
 let pages = [
     { content: marked(article_about),   buttonId: 'about'},
-    { content: marked(article_works),   buttonId: 'works'},
-    { content: marked(article_develop), buttonId: 'development'}
+    { content: marked(article_works),   buttonId: 'works'}
 ];
 let content_area = d3.select("#content");
 content_area.html(pages[0].content);

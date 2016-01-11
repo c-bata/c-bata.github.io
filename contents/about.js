@@ -8,7 +8,6 @@ export default `
 - [Github](http://github.com/c-bata)
 - [Twitter](http://twitter.com/c_bata_)
 - [Facebook](http://facebook.com/masashi.cbata)
-- [Tech Blog](http://nwpct1.hatenablog.com)
 - [Wantedly](https://www.wantedly.com/users/3087528)
 - [Slideshare](http://www.slideshare.net/c-bata)
 - Email: contact at c-bata.link

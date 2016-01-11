@@ -33,13 +33,14 @@ header {
   justify-content: flex-end;  // 右寄せ
   align-items: center;  // 垂直方向に中央寄せ
 
-  button {
+  a, button {
     font-family: "Raleway", "Helvetica", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", sans-serif;
-    border-style: none;
-    background-color: rgba(0, 0, 0, 0);
     font-size: 16px;
-    padding: 15px;
+    background-color: rgba(0, 0, 0, 0);
     color: #ffffff;
+    border-style: none;
+    padding: 15px;
+    display: block;
   }
 
   img {
@@ -51,7 +52,7 @@ header {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .nav {
     flex-direction: column;
   }
