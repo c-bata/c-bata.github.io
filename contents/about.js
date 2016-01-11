@@ -1,7 +1,7 @@
 export default `
-<h2>About me</h2>
+<h2>芝田 将 (Masashi Shibata)</h2>
 
-<p>芝田 将 (Masashi Shibata)</p>
+明石高専 機械電子システム工学専攻に所属しています。趣味や研究でWebアプリ(Python, React.js)やiOS, Androidの開発を行っています。プログラミング以外にも釣り、カメラ、スキー、旅行が趣味です。そろそろ登山も始めたい。
 
 <ul>
     <li><a href="http://github.com/c-bata">Github</a></li>
