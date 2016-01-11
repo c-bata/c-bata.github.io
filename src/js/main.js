@@ -32,6 +32,6 @@ $(() => {
     $(window).scroll(function () {
         var dy = $(this).scrollTop();
         console.log(dy);
-        $('#eyecatch').css('background-position', '0 ' + dy + 'px');
+        $('#eyecatch').css('background-position-y', dy/2 + 'px');
     })
 });
