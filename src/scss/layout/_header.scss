@@ -1,29 +1,36 @@
 header {
   padding: 0 0 30% 0;
+}
 
-  nav {
-    background-color: #222222;
-  }
+nav {
+  background-color: #222222;
 
-  .title-image {
-    @include border-radius(50%);
-    border: 2px solid #ffffff;
-    display: block;
-  }
-
-  .logo {
+  .container {
     display: flex;
     display: -webkit-flex;
-    justify-content: flex-start;  // 左寄せ
-    align-items: center;  // 垂直方向に中央寄せ
+    justify-content: space-between;
+  }
+}
 
-    .name {
-      font-family: "Raleway", "Helvetica", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", sans-serif;
-      color: #ffffff;
-      font-size: 24px;
-      font-weight: bold;
-      padding-left: 15px;
-    }
+.title-image {
+  @include border-radius(50%);
+  border: 2px solid #ffffff;
+  display: block;
+  max-width: 30px;
+}
+
+.nav-brand {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-start;  // 左寄せ
+  align-items: center;  // 垂直方向に中央寄せ
+
+  .name {
+    font-family: "Raleway", "Helvetica", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 15px;
   }
 }
 
@@ -46,15 +53,15 @@ header {
   img {
     max-height: 40px;
   }
-
-  li:first-child {
-    margin-right: auto;  // 1つめの要素だけ左寄せ
-  }
 }
 
 @media screen and (max-width: 600px) {
-  .nav {
+  nav > .container {
     flex-direction: column;
+  }
+
+  .nav {
+    justify-content: space-between;
   }
 }
 
