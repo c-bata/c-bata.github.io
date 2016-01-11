@@ -1,6 +1,9 @@
 header {
-  background-color: #222222;
-  padding:20px 0 20px 0;
+  padding: 0 0 30% 0;
+
+  nav {
+    background-color: #222222;
+  }
 
   .title-image {
     @include border-radius(50%);
@@ -53,8 +56,7 @@ header {
   }
 }
 
-.eyecatch{
-  padding-top: 30%;
+#eyecatch {
   display: block;
   background: no-repeat 50% 50%;
   background-size: cover;

@@ -1,6 +1,7 @@
 import marked from 'marked';
 import d3     from 'd3';
 
+// contents
 import article_about    from '../../contents/about';
 import article_develop  from '../../contents/development';
 import article_works    from '../../contents/works';
@@ -11,7 +12,6 @@ let pages = [
     { content: marked(article_develop), buttonId: 'development'}
 ];
 
-// contents
 let content_area = d3.select("#content");
 
 pages.map((page) => {
@@ -22,3 +22,16 @@ pages.map((page) => {
 });
 
 content_area.html(pages[0].content);
+
+
+// ==================================================
+// parallax design with jQuery
+import $      from 'jquery';
+
+$(() => {
+    $(window).scroll(function () {
+        var dy = $(this).scrollTop();
+        console.log(dy);
+        $('#eyecatch').css('background-position', '0 ' + dy + 'px');
+    })
+});
