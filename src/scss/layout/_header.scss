@@ -28,18 +28,20 @@ header {
     justify-content: flex-end;  // 右寄せ
     align-items: center;  // 垂直方向に中央寄せ
 
+    button {
+      border-style: none;
+      background-color: rgba(0, 0, 0, 0);
+      font-size: 16px;
+      padding: 15px;
+      color: #ffffff;
+    }
+
     img {
       max-height: 40px;
     }
 
     li:first-child {
       margin-right: auto;  // 1つめの要素だけ左寄せ
-    }
-
-    a {
-      font-size: 16px;
-      padding: 15px;
-      color: #ffffff;
     }
   }
 }

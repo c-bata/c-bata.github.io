@@ -6,19 +6,10 @@ import article_develop  from '../../contents/development';
 import article_works  from '../../contents/works';
 
 let pages = [
-    { content: article_about,   buttonId: 'about',       label: "TOP" },
-    { content: article_works,   buttonId: 'works',       label: "WORKS" },
-    { content: article_develop, buttonId: 'development', label: "SKILL" }
+    { content: article_about,   buttonId: 'about'},
+    { content: article_works,   buttonId: 'works'},
+    { content: article_develop, buttonId: 'development'}
 ];
-
-// sidebar
-let pageList = d3.select("#sidebar").append("ul").selectAll("li");
-let updatePageList = pageList.data(pages); /* 対応する要素が足りる場合 -> text */
-let enterPageList = updatePageList.enter(); /* 対応する要素が足りない場合 -> append */
-
-enterPageList.append("li").html((page) => {
-    return `<a href="javascript: void(0)" id="${ page.buttonId }">${ page.label }</a>`;
-});
 
 // contents
 let content_area = d3.select("#content");
