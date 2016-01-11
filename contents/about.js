@@ -13,8 +13,6 @@ export default `
     <li>Email: contact at c-bata.link</li>
 </ul>
 
-<p>Please feel free to contact me !</p>
-
 
 <h2>学歴</h2>
 <ul>
