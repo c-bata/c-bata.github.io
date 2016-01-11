@@ -25,20 +25,14 @@ export default `
 - Teamlab Internship(2015.09 - 2015.09)
 - CyberAgent Internship(2015.08 - 2015.09)
 
-
-## Community Activities
-
-- PyCon JP 2015 メディア・スタッフ
-- akashi.py (Python勉強会) 主催
-- Code for Kosen
-
-
 ## Writing Careers
 
+- [2014.09 PIN入力認証の実装における一考察 (MEとバイオサイバネティックス](http://ci.nii.ac.jp/naid/40020225048)
+- [2014.11 スマートフォンにおけるPIN入力認証における閾値決定手](http://www.ieice.org/ess/biox/sbra2014/)
 - [台湾で開催された「PyCon APAC 2015」参加レポート | gihyo.jp 技術評論社](http://gihyo.jp/news/report/01/pycon-apac-2015)
     - [2015.06 第1回　現地の様子とカンファレンス1日目 ～Van Lindberg氏による基調講演，おやつタイム，等々～](http://gihyo.jp/news/report/01/pycon-apac-2015/0001)
-    - [2015.06 第2回　PyCon APAC/Taiwan 2015カンファレンス2日目参加レポート ～Robert Bradshaw氏による基調講演，LT，等々～](http://gihyo.jp/news/report/01/pycon-apac-2015/0002)
-    - [2015.07 第3回（最終回）　PyCon APAC/Taiwan 2015カンファレンス3日目参加レポート ～プレゼント大会，等々～](http://gihyo.jp/news/report/01/pycon-apac-2015/0003)
+    - [2015.06 第2回　カンファレンス2日目参加レポート ～Robert Bradshaw氏による基調講演，LT，等々～](http://gihyo.jp/news/report/01/pycon-apac-2015/0002)
+    - [2015.07 第3回（最終回）　カンファレンス3日目参加レポート ～プレゼント大会，等々～](http://gihyo.jp/news/report/01/pycon-apac-2015/0003)
 - [PyCon JP 2015の作り方 | gihyo.jp 技術評論社](http://gihyo.jp/dev/serial/01/pycon-jp-2015)
     - [2015.08 第3回　プログラムチーム編：テーマ，プログラム，新企画等](http://gihyo.jp/dev/serial/01/pycon-jp-2015/0003)
     - [2015.09 第4回（最終回）　会場チーム編：会場，ネットワーク，ランチ，おやつ等](http://gihyo.jp/dev/serial/01/pycon-jp-2015/0004)
@@ -57,10 +51,10 @@ export default `
 - 2015.03 au Firefox OS WoTハッカソン on ホワイトデー Mozilla賞
 - 2015.09 CyberAgent TechDesignCAMPエンタメ編 優勝
 
+## Community Activities
 
-## Research
-
-- [2014.09 PIN入力認証の実装における一考察 (MEとバイオサイバネティックス](http://ci.nii.ac.jp/naid/40020225048)
-- [2014.11 スマートフォンにおけるPIN入力認証における閾値決定手](http://www.ieice.org/ess/biox/sbra2014/)
+- PyCon JP 2015 メディア・スタッフ
+- akashi.py (Python勉強会) 主催
+- Code for Kosen
 
 `
