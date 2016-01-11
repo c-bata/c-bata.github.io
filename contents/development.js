@@ -52,10 +52,11 @@ export default `
     <li>Twitter Bootstrap</li>
 </ul>
 
-<p>Java</p>
+<p>Native Application</p>
 
 <ul class="tag-list">
-    <li><b>Android</b></li>
+    <li>Android(Java)</li>
+    <li>iOS(Swift)</li>
 </ul>
 
 
