@@ -1,7 +1,7 @@
 export default `
-<h2>芝田 将 (Masashi Shibata)</h2>
+<h2>Profile</h2>
 
-<p>明石高専 機械電子システム工学専攻に所属しています。趣味や研究でWebアプリ(Python, React.js)やiOS, Androidの開発を行っています。プログラミング以外にも釣り、カメラ、スキー、旅行が趣味です。そろそろ登山も始めたい。</p>
+<p>こんにちは、芝田 将です。明石高専 機械電子システム工学専攻に所属しています。趣味や研究でWebアプリ(Python, React.js)やiOS, Androidの開発を行っています。プログラミング以外にも釣り、カメラ、スキー、旅行が趣味です。そろそろ登山も始めたい。</p>
 
 <ul>
     <li><a href="http://github.com/c-bata">Github</a></li>
@@ -14,13 +14,13 @@ export default `
 </ul>
 
 
-<h2>学歴</h2>
+<h2>Education</h2>
 <ul>
     <li>国立明石工業高等専門学校 機械・電子システム工学専攻 (2015.04 - 2017.03 卒業見込み)</li>
     <li>国立明石工業高等専門学校 電気情報工学科 (2010.04 - 2015.03)</li>
 </ul>
 
-<h2>職歴</h2>
+<h2>Work Experiences</h2>
 <ul>
     <li>BePROUD part-time (2015.03 - 2015.10)</li>
     <li>Teamlab Internship(2015.09 - 2015.09)</li>
@@ -28,7 +28,7 @@ export default `
 </ul>
 
 
-<h2>コミュニティ活動</h2>
+<h2>Community Activities</h2>
 
 <ul>
     <li>PyCon JP 2015 メディア・スタッフ</li>
@@ -37,7 +37,7 @@ export default `
 </ul>
 
 
-<h2>執筆歴</h2>
+<h2>Writing Careers</h2>
 
 <ul>
     <li><a href="http://gihyo.jp/news/report/01/pycon-apac-2015">台湾で開催された「PyCon APAC 2015」参加レポート | gihyo.jp 技術評論社</a></li>
@@ -65,7 +65,7 @@ export default `
 </ul>
 
 
-<h2>受賞歴</h2>
+<h2>Activities</h2>
 
 <ul>
     <li>2014.11 電子情報通信学会第4回バイオメトリクスと認識・認証シンポジウム 優秀ポスター発表賞</li>
@@ -74,7 +74,7 @@ export default `
 </ul>
 
 
-<h2>研究・論文</h2>
+<h2>Research</h2>
 
 <ul>
     <li><a href="http://ci.nii.ac.jp/naid/40020225048">2014.09 PIN入力認証の実装における一考察 (MEとバイオサイバネティックス)</a></li>

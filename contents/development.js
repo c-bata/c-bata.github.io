@@ -1,5 +1,5 @@
 export default `
-<h1>スキル・開発環境</h1>
+<h2>Skills</h2>
 
 <p>
     Python/Djangoを中心に勉強してきました。
