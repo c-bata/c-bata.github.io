@@ -1,5 +1,6 @@
 import marked from 'marked';
 import d3     from 'd3';
+import $      from 'jquery';
 
 // contents
 import article_about    from '../../contents/about';
@@ -11,8 +12,8 @@ let pages = [
     { content: marked(article_works),   buttonId: 'works'},
     { content: marked(article_develop), buttonId: 'development'}
 ];
-
 let content_area = d3.select("#content");
+content_area.html(pages[0].content);
 
 pages.map((page) => {
     let button = document.getElementById(page.buttonId);
@@ -21,13 +22,8 @@ pages.map((page) => {
     });
 });
 
-content_area.html(pages[0].content);
 
-
-// ==================================================
 // parallax design with jQuery
-import $      from 'jquery';
-
 $(() => {
     $(window).scroll(function () {
         var dy = $(this).scrollTop();
@@ -35,3 +31,4 @@ $(() => {
         $('#eyecatch').css('background-position-y', dy/2 + 'px');
     })
 });
+

@@ -48,7 +48,7 @@ export default `
     - [2015.10 第3回 会場・パーティについて](http://codezine.jp/article/detail/8991)
     - [2015.10 第4回 その他の見どころ](http://codezine.jp/article/detail/9006)
 - PyCon JP 2015 振り返りレポート | Codezine
-    - [2015.11 ～第1回 座長あいさつ・メディアチームの作業内容](http://codezine.jp/article/detail/9079
+    - [2015.11 ～第1回 座長あいさつ・メディアチームの作業内容](http://codezine.jp/article/detail/9079)
 
 
 ## Activities

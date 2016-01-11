@@ -35,12 +35,11 @@ Web Frontend
     <li>React.js</li>
     <li>Babel(ES6)</li>
     <li>jQuery</li>
-    <li>mocha</li>
     <li>Sass</li>
     <li>Compass</li>
 </ul>
 
-Native Applicatio
+Native Application
 
 <ul class="tag-list">
     <li>Android(Java)</li>
@@ -61,7 +60,7 @@ Native Applicatio
 </ul>
 
 
-### Database
+### Databases
 
 <ul class="tag-list">
     <li>MySQL</li>
@@ -72,7 +71,7 @@ Native Applicatio
 </ul>
 
 
-### 開発環境
+### Development Environments
 
 <ul class="tag-list">
     <li>PyCharm</li>
