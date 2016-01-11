@@ -34,12 +34,11 @@ b {
 }
 
 a {
-  font-size: 14px;
   color: $color_secondary_text;
   text-decoration: none;
 
   &:hover {
-    color: $color_primary;
+    color: $color_hint_text;
   }
 }
 
