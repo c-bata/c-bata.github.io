@@ -16,4 +16,19 @@ header {
     display: block;
     margin: 30px auto;
   }
+
+  .translation {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 20px 0 0 0;
+
+    button {
+      border-style: none;
+      font-size: 20px;
+      color: white;
+      background: rgba(255, 255, 255, 0);
+    }
+  }
 }
