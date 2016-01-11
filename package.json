@@ -4,7 +4,7 @@
   "description": "This is c-bata's portfolio web site.",
   "main": "src/jsx/*.jsx",
   "scripts": {
-    "js-build": "gulp watch",
+    "build": "gulp build",
     "compass": "compass watch",
     "server": "python -m SimpleHTTPServer 8000"
   },

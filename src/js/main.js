@@ -3,10 +3,12 @@ import d3     from 'd3';
 
 import article_about    from '../../contents/about';
 import article_develop  from '../../contents/development';
+import article_works  from '../../contents/works';
 
 let pages = [
-    { content: article_about, buttonId: 'about',       label: "TOP" },
-    { content: article_develop,       buttonId: 'development', label: "SKILL" }
+    { content: article_about,   buttonId: 'about',       label: "TOP" },
+    { content: article_works,   buttonId: 'works',       label: "WORKS" },
+    { content: article_develop, buttonId: 'development', label: "SKILL" }
 ];
 
 // sidebar

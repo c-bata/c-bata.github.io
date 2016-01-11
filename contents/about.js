@@ -1,5 +1,5 @@
 export default `
-<h2>Welcome!</h2>
+<h2>About me</h2>
 
 <p>芝田 将 (Masashi Shibata)</p>
 
@@ -10,7 +10,6 @@ export default `
     <li><a href="http://nwpct1.hatenablog.com">Hatena Blog</a></li>
     <li><a href="https://www.wantedly.com/users/3087528">Wantedly</a></li>
     <li><a href="http://www.slideshare.net/c-bata">Slideshare</a></li>
-    <li><a href="https://bitbucket.org/c-bata/">Bitbucket</a></li>
 </ul>
 
 - Email: contact (at) c-bata.link
