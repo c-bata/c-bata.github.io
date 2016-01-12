@@ -26,8 +26,8 @@ export default `
 
 ## Writing Careers
 
-- [2014.09 PIN入力認証の実装における一考察 (MEとバイオサイバネティックス](http://ci.nii.ac.jp/naid/40020225048)
-- [2014.11 スマートフォンにおけるPIN入力認証における閾値決定手](http://www.ieice.org/ess/biox/sbra2014/)
+- [2014.09 PIN入力認証の実装における一考察 (MEとバイオサイバネティックス)](http://ci.nii.ac.jp/naid/40020225048)
+- [2014.11 スマートフォンにおけるPIN入力認証における閾値決定手法](http://www.ieice.org/ess/biox/sbra2014/)
 - [台湾で開催された「PyCon APAC 2015」参加レポート | gihyo.jp 技術評論社](http://gihyo.jp/news/report/01/pycon-apac-2015)
     - [2015.06 第1回　現地の様子とカンファレンス1日目 ～Van Lindberg氏による基調講演，おやつタイム，等々～](http://gihyo.jp/news/report/01/pycon-apac-2015/0001)
     - [2015.06 第2回　カンファレンス2日目参加レポート ～Robert Bradshaw氏による基調講演，LT，等々～](http://gihyo.jp/news/report/01/pycon-apac-2015/0002)
