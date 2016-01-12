@@ -16,7 +16,7 @@ export default `
                 </ul>
                 <h2 class="work-card-heading">
                     いつかリスト
-                    <span>http://itukalist.herokuapp.com/</span>
+                    <span>Djangoの勉強に作ったサービス。</span>
                 </h2>
             </span>
         </a>
