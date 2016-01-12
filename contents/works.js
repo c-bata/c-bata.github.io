@@ -5,23 +5,61 @@ export default `
 
 ### Web Services
 
-<div class="work-card">
-    <a href="https://itukalist.herokuapp.com/" target="_blank">
-        <img src="/img/itukalist.png" />
-        <span class="work-card-description">
-            <ul class="skills">
-                <li>Python</li>
-                <li>Djagno</li>
-                <li>Heroku</li>
-                <li>Sass</li>
-                <li>Twitter Bootstrap</li>
-            </ul>
-            <h2 class="work-card-heading">
-                いつかリスト
-                <span>http://itukalist.herokuapp.com/</span>
-            </h2>
-        </span>
-    </a>
+<div class="work-card-list">
+    <div class="work-card">
+        <a href="https://itukalist.herokuapp.com/" target="_blank">
+            <img src="/img/itukalist.png" />
+            <span class="work-card-description">
+                <ul class="skills">
+                    <li>Python</li>
+                    <li>Djagno</li>
+                    <li>Heroku</li>
+                    <li>Sass</li>
+                    <li>Twitter Bootstrap</li>
+                </ul>
+                <h2 class="work-card-heading">
+                    いつかリスト
+                    <span>http://itukalist.herokuapp.com/</span>
+                </h2>
+            </span>
+        </a>
+    </div>
+    <div class="work-card">
+        <a href="https://itukalist.herokuapp.com/" target="_blank">
+            <img src="/img/itukalist.png" />
+            <span class="work-card-description">
+                <ul class="skills">
+                    <li>Python</li>
+                    <li>Djagno</li>
+                    <li>Heroku</li>
+                    <li>Sass</li>
+                    <li>Twitter Bootstrap</li>
+                </ul>
+                <h2 class="work-card-heading">
+                    いつかリスト
+                    <span>http://itukalist.herokuapp.com/</span>
+                </h2>
+            </span>
+        </a>
+    </div>
+    <div class="work-card">
+        <a href="https://itukalist.herokuapp.com/" target="_blank">
+            <img src="/img/itukalist.png" />
+            <span class="work-card-description">
+                <ul class="skills">
+                    <li>Python</li>
+                    <li>Djagno</li>
+                    <li>Heroku</li>
+                    <li>Sass</li>
+                    <li>Twitter Bootstrap</li>
+                </ul>
+                <h2 class="work-card-heading">
+                    いつかリスト
+                    <span>http://itukalist.herokuapp.com/</span>
+                </h2>
+            </span>
+        </a>
+    </div>
 </div>
 
 ### iOS Applications

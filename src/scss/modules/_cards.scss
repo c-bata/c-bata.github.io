@@ -1,3 +1,24 @@
+.work-card-list {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+
+  .work-card {
+    width: calc(100% * (1/2) - 10px - 1px);
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .work-card-list {
+    flex-direction: column;
+
+    .work-card {
+      width: 100%;
+    }
+  }
+}
+
 .work-card {
   position: relative;
 
@@ -14,7 +35,7 @@
   }
 
   img {
-    width: 50%;
+    width: 100%;
     height: auto;
     // 暗くする
     -webkit-filter: brightness(0.7);
@@ -43,7 +64,7 @@
     margin: 0;
 
     > li {
-      background-color: rgba(255,255,255,0.4);
+      background-color: rgba(255,255,255,0.6);
       list-style-type: none;
       float: left;
       margin: 3px;
