@@ -8,7 +8,7 @@ export default `
 <div class="work-card-list">
     <div class="work-card">
         <a href="https://itukalist.herokuapp.com/" target="_blank">
-            <img src="/img/itukalist.png" />
+            <img src="/img/works/itukalist.jpg" />
             <span class="work-card-description">
                 <ul class="skills">
                     <li>Python</li>
@@ -26,7 +26,7 @@ export default `
     </div>
     <div class="work-card">
         <a href="https://itukalist.herokuapp.com/" target="_blank">
-            <img src="/img/itukalist.png" />
+            <img src="/img/works/itukalist.jpg" />
             <span class="work-card-description">
                 <ul class="skills">
                     <li>Python</li>
@@ -44,7 +44,7 @@ export default `
     </div>
     <div class="work-card">
         <a href="https://itukalist.herokuapp.com/" target="_blank">
-            <img src="/img/itukalist.png" />
+            <img src="/img/works/itukalist.jpg" />
             <span class="work-card-description">
                 <ul class="skills">
                     <li>Python</li>
