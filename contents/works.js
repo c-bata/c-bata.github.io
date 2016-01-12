@@ -1,8 +1,6 @@
 export default `
 ## Works
 
-準備中...
-
 ### Web Services
 
 <div class="work-card-list">
@@ -11,43 +9,6 @@ export default `
             <img src="/img/works/itukalist.jpg" />
             <span class="work-card-description">
                 <ul class="skills">
-                    <li>Python</li>
-                    <li>Djagno</li>
-                    <li>Heroku</li>
-                    <li>Sass</li>
-                    <li>Twitter Bootstrap</li>
-                </ul>
-                <h2 class="work-card-heading">
-                    いつかリスト
-                    <span>http://itukalist.herokuapp.com/</span>
-                </h2>
-            </span>
-        </a>
-    </div>
-    <div class="work-card">
-        <a href="https://itukalist.herokuapp.com/" target="_blank">
-            <img src="/img/works/itukalist.jpg" />
-            <span class="work-card-description">
-                <ul class="skills">
-                    <li>Python</li>
-                    <li>Djagno</li>
-                    <li>Heroku</li>
-                    <li>Sass</li>
-                    <li>Twitter Bootstrap</li>
-                </ul>
-                <h2 class="work-card-heading">
-                    いつかリスト
-                    <span>http://itukalist.herokuapp.com/</span>
-                </h2>
-            </span>
-        </a>
-    </div>
-    <div class="work-card">
-        <a href="https://itukalist.herokuapp.com/" target="_blank">
-            <img src="/img/works/itukalist.jpg" />
-            <span class="work-card-description">
-                <ul class="skills">
-                    <li>Python</li>
                     <li>Djagno</li>
                     <li>Heroku</li>
                     <li>Sass</li>
@@ -62,9 +23,63 @@ export default `
     </div>
 </div>
 
-### iOS Applications
-### Android Applications
-### OSS
+
+### Smartphone Applications
+
+<div class="work-card-list">
+    <div class="work-card">
+        <a href="https://takusuta.com/" target="_blank">
+            <img src="/img/works/tagusuta.jpg" />
+            <span class="work-card-description">
+                <ul class="skills">
+                    <li>Android</li>
+                    <li>Java</li>
+                </ul>
+                <h2 class="work-card-heading">
+                    宅スタ
+                    <span>Tech Design CAMPにて新機能の提案・実装</span>
+                </h2>
+            </span>
+        </a>
+    </div>
+    <div class="work-card">
+        <a href="http://nwpct1.hatenablog.com/entry/start-ios-development" target="_blank">
+            <img src="/img/works/bioblink.jpg" />
+            <span class="work-card-description">
+                <ul class="skills">
+                    <li>iOS</li>
+                    <li>Swift</li>
+                </ul>
+                <h2 class="work-card-heading">
+                    BioBlink
+                    <span>J!NS MEMEのセンサーデータ収集アプリ</span>
+                </h2>
+            </span>
+        </a>
+    </div>
+</div>
+
+### OSS Libraries
+
+#### Python
+
+- [Kobin: A very simple web application framework in python](https://github.com/c-bata/kobin)
+- [pandas-validator: Validation Library for pandas's DataFrame and Series.](https://github.com/c-bata/pandas-validator)
+- [django-label-tag-attr: Add css classes and html tag attributes to django form's label.](https://github.com/c-bata/django-label-tag-attr)
+
+#### Android
+
+- [jpandas: Implementation of Pandas (Python Data Analysis Library) on java.](https://github.com/c-bata/jpandas)
+
+#### JavaScript
+
+- [mdnote: Markdown editor with React.js, Babel and Electron.](https://github.com/c-bata/mdnote)
+
+
+#### Others
+
+- [pym: Simple python interpreter manager](https://github.com/c-bata/pym)
+
 
 ## Skills
 
