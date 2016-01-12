@@ -1,0 +1,70 @@
+.work-card {
+  position: relative;
+
+  .work-card-description {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    align-content: flex-end;
+    padding: 20px;
+  }
+
+  > a {
+    padding: 0;
+  }
+
+  img {
+    width: 50%;
+    height: auto;
+    // 暗くする
+    -webkit-filter: brightness(0.7);
+    -moz-filter: brightness(0.7);
+    -o-filter: brightness(0.7);
+    filter: brightness(0.7);
+
+    // brightnessの変化を0.3秒
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      -webkit-filter: brightness(0.9);
+      -moz-filter: brightness(0.9);
+      -o-filter: brightness(0.9);
+      filter: brightness(0.9);
+    }
+  }
+
+  .skills {
+    font-size: 10px;
+    color: #222222;
+    padding: 0;
+    margin: 0;
+
+    > li {
+      background-color: rgba(255,255,255,0.4);
+      list-style-type: none;
+      float: left;
+      margin: 3px;
+      padding: 4px;
+    }
+  }
+
+  .work-card-heading {
+    font-size: 30px;
+    margin: 10px 0 0 0;
+    font-weight: bold;
+    color: #ffffff;
+    padding-left: 2px;
+
+    > span {
+      font-size: 16px;
+    }
+  }
+}
+
+.work-card-description {
+  position: absolute;
+  bottom: 10px;
+}
