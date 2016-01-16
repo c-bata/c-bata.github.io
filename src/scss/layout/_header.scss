@@ -48,6 +48,11 @@ nav {
     border-style: none;
     padding: 15px;
     display: block;
+    border-bottom: 5px solid rgba(0, 0, 0, 0);
+
+    &:hover {
+      border-bottom: 5px solid #ffffff;
+    }
   }
 
   img {
