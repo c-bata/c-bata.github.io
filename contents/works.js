@@ -8,7 +8,7 @@ export default `
         <a href="https://itukalist.herokuapp.com/" target="_blank">
             <img src="/img/works/itukalist.jpg" />
             <span class="work-card-description">
-                <ul class="skills">
+                <ul class="work-card-skills">
                     <li>Djagno</li>
                     <li>Heroku</li>
                     <li>Sass</li>
@@ -31,7 +31,7 @@ export default `
         <a href="https://takusuta.com/" target="_blank">
             <img src="/img/works/tagusuta.jpg" />
             <span class="work-card-description">
-                <ul class="skills">
+                <ul class="work-card-skills">
                     <li>Android</li>
                     <li>Java</li>
                 </ul>
@@ -46,7 +46,7 @@ export default `
         <a href="http://nwpct1.hatenablog.com/entry/start-ios-development" target="_blank">
             <img src="/img/works/bioblink.jpg" />
             <span class="work-card-description">
-                <ul class="skills">
+                <ul class="work-card-skills">
                     <li>iOS</li>
                     <li>Swift</li>
                 </ul>
@@ -58,6 +58,7 @@ export default `
         </a>
     </div>
 </div>
+
 
 ### OSS Libraries
 
@@ -94,6 +95,7 @@ export default `
     <li>bash</li>
 </ul>
 
+
 ### Framework and Libraries
 
 Server Side
@@ -105,7 +107,6 @@ Server Side
     <li>Bottle</li>
     <li>SQLAlchemy</li>
 </ul>
-
 
 Web Frontend
 
@@ -124,7 +125,6 @@ Native Application
     <li>iOS(Swift)</li>
 </ul>
 
-
 ### Infrastructure
 
 <ul class="tag-list">
@@ -137,7 +137,6 @@ Native Application
     <li>uWSGI</li>
 </ul>
 
-
 ### Databases
 
 <ul class="tag-list">
@@ -147,7 +146,6 @@ Native Application
     <li>MongoDB</li>
     <li>Redis</li>
 </ul>
-
 
 ### Development Environments
 
