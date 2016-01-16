@@ -1,17 +1,17 @@
 export default `
 ## Profile
 
+[<i class="fa fa-twitter"></i>](http://twitter.com/c_bata_)
+[<i class="fa fa-facebook"></i>](http://facebook.com/masashi.cbata)
+[<i class="fa fa-github"></i>](http://github.com/c-bata)
+[<i class="fa fa-instagram"></i>](https://www.instagram.com/c_bata_)
+[<i class="fa fa-flickr"></i>](http://www.slideshare.net/c-bata)
+[<i class="fa fa-slideshare"></i>](http://www.slideshare.net/c-bata)
+[<i class="fa fa-envelope"></i>](mailto:contact@c-bata.link)
+
 こんにちは、芝田 将です。明石高専 機械電子システム工学専攻に所属しています。
 趣味や研究でWebアプリ(Python, React.js)やiOS, Androidの開発を行っています。
 プログラミング以外にも釣り、カメラ、スキー、旅行が趣味です。そろそろ登山も始めたい。
-
-- [Github](http://github.com/c-bata)
-- [Twitter](http://twitter.com/c_bata_)
-- [Facebook](http://facebook.com/masashi.cbata)
-- [Wantedly](https://www.wantedly.com/users/3087528)
-- [Slideshare](http://www.slideshare.net/c-bata)
-- Email: contact at c-bata.link
-
 
 ## Education
 
