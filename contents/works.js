@@ -16,7 +16,7 @@ export default `
                 </ul>
                 <h2 class="work-card-heading">
                     いつかリスト
-                    <span>Djangoの勉強に作ったサービス。</span>
+                    <span>初めてリリースしたWebサービス</span>
                 </h2>
             </span>
         </a>
@@ -37,7 +37,7 @@ export default `
                 </ul>
                 <h2 class="work-card-heading">
                     宅スタ
-                    <span>Tech Design CAMPにて新機能の提案・実装</span>
+                    <span>CA TechDesign CAMP にて新機能を提案・実装しました</span>
                 </h2>
             </span>
         </a>
@@ -52,7 +52,7 @@ export default `
                 </ul>
                 <h2 class="work-card-heading">
                     BioBlink
-                    <span>J!NS MEMEのセンサーデータ収集アプリ</span>
+                    <span>J!NS MEMEのセンサーデータ収集アプリケーション</span>
                 </h2>
             </span>
         </a>
@@ -60,24 +60,24 @@ export default `
 </div>
 
 
-### OSS Libraries
+## OSS Libraries
 
-#### Python
+### Python
 
 - [Kobin: A very simple web application framework in python](https://github.com/c-bata/kobin)
 - [pandas-validator: Validation Library for pandas's DataFrame and Series.](https://github.com/c-bata/pandas-validator)
 - [django-label-tag-attr: Add css classes and html tag attributes to django form's label.](https://github.com/c-bata/django-label-tag-attr)
 
-#### Android
+### Android
 
 - [jpandas: Implementation of Pandas (Python Data Analysis Library) on java.](https://github.com/c-bata/jpandas)
 
-#### JavaScript
+### JavaScript
 
 - [mdnote: Markdown editor with React.js, Babel and Electron.](https://github.com/c-bata/mdnote)
 
 
-#### Others
+### Others
 
 - [pym: Simple python interpreter manager](https://github.com/c-bata/pym)
 
