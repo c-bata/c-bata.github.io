@@ -9,7 +9,14 @@
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (min-width: 480px) and (max-width: 750px) {
+  .work-card-list .work-card {
+    width: calc(100% * (1/2) - 10px - 1px);
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
   .work-card-list {
     flex-direction: column;
 
