@@ -60,15 +60,25 @@
     }
 
     .work-card-skills {
-      -webkit-transition: 0.3s ease-out;
-      -moz-transition: 0.3s ease-out;
-      -o-transition: 0.3s ease-out;
-      transition: 0.3s ease-out;
-      // 本来の位置に移動
-      -ms-transform: translate(0,0); /* IE 9 */
-      -webkit-transform: translate(0,0); /* Safari */
-      transform: translate(0,0);
+      animation-name: slideIn;
+      animation-duration: 0.4s;
+      animation-timing-function: ease-in-out;
     }
+  }
+}
+
+@keyframes slideIn {
+  from {
+    -webkit-transform: translate(100%,0);
+    transform: translate(100%,0);
+  }
+  80% {
+    -webkit-transform: translate(-3%,0);
+    transform: translate(-3%,0);
+  }
+  to {
+    -webkit-transform: translate(0,0);
+    transform: translate(0.0);
   }
 }
 
@@ -82,10 +92,6 @@
     color: #ffffff;
     padding: 0;
     margin: 0;
-
-    -ms-transform: translate(100%,0); /* IE 9 */
-    -webkit-transform: translate(100%,0); /* Safari */
-    transform: translate(100%,0);
 
     > li {
       list-style-type: none;
