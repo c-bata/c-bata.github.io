@@ -9,7 +9,7 @@
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 750px) {
+@media screen and (min-width: 480px) and (max-width: 800px) {
   .work-card-list .work-card {
     width: calc(100% * (1/2) - 10px - 1px);
     margin: 5px;
@@ -27,6 +27,7 @@
 }
 
 .work-card {
+  overflow: hidden;
   position: relative;
 
   .work-card-description {
