@@ -1,3 +1,6 @@
+/* 画面サイズに合わせて並べる画像数を変更
+ * ~ 480px : 1枚, 480~800px : 2枚, 800px ~ : 3枚
+ */
 .work-card-list {
   display: flex;
   display: -webkit-flex;
@@ -26,6 +29,7 @@
   }
 }
 
+/* それぞれのスタイル */
 .work-card {
   overflow: hidden;
   position: relative;
@@ -44,14 +48,14 @@
     display: -webkit-flex;
     flex-direction: column;
     align-content: flex-end;
+
     padding: 20px;
+    position: absolute;
+    bottom: 10px;
   }
 }
 
 .work-card-description {
-  position: absolute;
-  bottom: 10px;
-
   .work-card-skills {
     font-size: 10px;
     color: #ffffff;
@@ -89,6 +93,10 @@
   }
 
   &:hover {
+    .work-card-description {
+      visibility: visible;
+    }
+
     img {
       // 変化を0.3秒
       -webkit-transition: 0.3s ease-in;
@@ -100,10 +108,6 @@
       -moz-filter: brightness(0.3);
       -o-filter: brightness(0.3);
       filter: brightness(0.3);
-    }
-
-    .work-card-description {
-      visibility: visible;
     }
   }
 }
