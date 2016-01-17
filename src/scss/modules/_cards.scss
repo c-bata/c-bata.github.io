@@ -30,16 +30,6 @@
   overflow: hidden;
   position: relative;
 
-  .work-card-description {
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: column;
-    align-content: flex-end;
-    padding: 20px;
-  }
-}
-
-.work-card {
   > a {
     padding: 0;
   }
@@ -49,51 +39,18 @@
     height: auto;
   }
 
-  &:hover {
-    img {
-      // 変化を0.3秒
-      -webkit-transition: 0.3s ease-in;
-      -moz-transition: 0.3s ease-in;
-      -o-transition: 0.3s ease-in;
-      transition: 0.3s ease-in;
-      // 暗くする
-      -webkit-filter: brightness(0.3);
-      -moz-filter: brightness(0.3);
-      -o-filter: brightness(0.3);
-      filter: brightness(0.3);
-    }
-
-    .work-card-description {
-      visibility: visible;
-    }
-
-    .work-card-skills {
-      animation-name: slideIn;
-      animation-duration: 0.4s;
-      animation-timing-function: ease-in-out;
-    }
-  }
-}
-
-@keyframes slideIn {
-  from {
-    -webkit-transform: translate(100%,0);
-    transform: translate(100%,0);
-  }
-  80% {
-    -webkit-transform: translate(-3%,0);
-    transform: translate(-3%,0);
-  }
-  to {
-    -webkit-transform: translate(0,0);
-    transform: translate(0.0);
+  .work-card-description {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    align-content: flex-end;
+    padding: 20px;
   }
 }
 
 .work-card-description {
   position: absolute;
   bottom: 10px;
-  visibility: hidden;
 
   .work-card-skills {
     font-size: 10px;
@@ -122,5 +79,55 @@
       font-size: 16px;
       font-weight: normal;
     }
+  }
+}
+
+/* hover時に、descriptionを表示 */
+.work-card {
+  .work-card-description {
+    visibility: hidden;
+  }
+
+  &:hover {
+    img {
+      // 変化を0.3秒
+      -webkit-transition: 0.3s ease-in;
+      -moz-transition: 0.3s ease-in;
+      -o-transition: 0.3s ease-in;
+      transition: 0.3s ease-in;
+      // 暗くする
+      -webkit-filter: brightness(0.3);
+      -moz-filter: brightness(0.3);
+      -o-filter: brightness(0.3);
+      filter: brightness(0.3);
+    }
+
+    .work-card-description {
+      visibility: visible;
+    }
+  }
+}
+
+/* 画面サイズが大きい時だけタグがスライドインするアニメーションを有効化 */
+@media screen and (min-width: 480px) {
+  .work-card:hover .work-card-skills {
+    animation-name: slideIn;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    -webkit-transform: translate(100%,0);
+    transform: translate(100%,0);
+  }
+  80% {
+    -webkit-transform: translate(-3%,0);
+    transform: translate(-3%,0);
+  }
+  to {
+    -webkit-transform: translate(0,0);
+    transform: translate(0.0);
   }
 }
