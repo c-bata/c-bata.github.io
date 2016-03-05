@@ -10,13 +10,14 @@ export default `
 [<i class="fa fa-envelope"></i>](mailto:contact@c-bata.link)
 
 こんにちは、芝田 将です。
-趣味や研究でWebアプリ(Django, React.js)やiOS, Androidの開発を行っています。
+趣味や研究でWebアプリ(Django, React.js)やiOS, Androidアプリの開発を行っています。
 プログラミング以外にも釣り、カメラ、スキー、旅行が趣味です。そろそろ登山も始めたい。
 
-## Education
+## Work Experiences
 
-- 国立明石工業高等専門学校 機械・電子システム工学専攻 (2015.04 - 2017.03 卒業見込み)
-- 国立明石工業高等専門学校 電気情報工学科 (2010.04 - 2015.03)
+- BePROUD part-time (2015.03 - 2015.10)
+- Teamlab Internship(2015.09 - 2015.09)
+- CyberAgent Internship(2015.08 - 2015.09)
 
 ## Community Activities
 
@@ -42,16 +43,15 @@ export default `
 - PyCon JP 2015 振り返りレポート | Codezine
     - [2015.11 ～第1回 座長あいさつ・メディアチームの作業内容](http://codezine.jp/article/detail/9079)
 
-## Work Experiences
-
-- BePROUD part-time (2015.03 - 2015.10)
-- Teamlab Internship(2015.09 - 2015.09)
-- CyberAgent Internship(2015.08 - 2015.09)
-
 ## Activities
 
 - 2014.11 電子情報通信学会第4回バイオメトリクスと認識・認証シンポジウム 優秀ポスター発表賞
 - 2015.03 au Firefox OS WoTハッカソン on ホワイトデー Mozilla賞
 - 2015.09 CyberAgent TechDesignCAMPエンタメ編 優勝
+
+## Education
+
+- 国立明石工業高等専門学校 機械・電子システム工学専攻 (2015.04 - 2017.03 卒業見込み)
+- 国立明石工業高等専門学校 電気情報工学科 (2010.04 - 2015.03)
 
 `

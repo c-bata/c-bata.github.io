@@ -16,7 +16,7 @@ export default `
                 </ul>
                 <h2 class="work-card-heading">
                     いつかリスト
-                    <span>初めてリリースしたWebサービス</span>
+                    <span>いつかやりたいことを管理するWebアプリ</span>
                 </h2>
             </span>
         </a>
@@ -89,10 +89,9 @@ export default `
 <ul class="tag-list">
     <li>Python</li>
     <li>JavaScript</li>
-    <li>CSS</li>
-    <li>Java</li>
-    <li>awk</li>
-    <li>bash</li>
+    <li>Golang</li>
+    <li>Swift</li>
+    <li>Java(Android)</li>
 </ul>
 
 
@@ -159,3 +158,4 @@ Native Application
 </ul>
 
 `
+
