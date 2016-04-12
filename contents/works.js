@@ -101,10 +101,10 @@ Server Side
 
 <ul class="tag-list">
     <li>Django</li>
-    <li>Pandas</li>
     <li>Flask</li>
     <li>Bottle</li>
-    <li>SQLAlchemy</li>
+    <li>Kobin</li>
+    <li>Gin</li>
 </ul>
 
 Web Frontend
