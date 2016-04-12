@@ -18,6 +18,7 @@ export default `
 - BePROUD part-time (2015.03 - 2015.10)
 - Teamlab Internship(2015.09 - 2015.09)
 - CyberAgent Internship(2015.08 - 2015.09)
+- AWA Co.Ltd part-time (2016.03 - 2016.04)
 
 ## Community Activities
 
