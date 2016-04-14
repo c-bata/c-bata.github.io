@@ -15,14 +15,14 @@ export default `
 
 ## Work Experiences
 
+- AWA Co.Ltd part-time (2016.03 - 2016.04)
 - BePROUD part-time (2015.03 - 2015.10)
 - Teamlab Internship(2015.09 - 2015.09)
 - CyberAgent Internship(2015.08 - 2015.09)
-- AWA Co.Ltd part-time (2016.03 - 2016.04)
 
 ## Community Activities
 
-- PyCon JP 2015 メディア・スタッフ
+- PyCon JP 2015・2016 メディア・スタッフ
 - akashi.py (Python勉強会) 主催
 
 ## Writing Careers
