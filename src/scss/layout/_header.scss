@@ -9,18 +9,30 @@ header {
   }
 }
 @media screen and (max-width: 600px) {
-  header {
-    padding: 0 0 45% 0;
-
-    .header-content {
-      margin-left: -200px;
-      margin-top: 0px;
-    }
+  .header-content .profileicon {
+    border: 2px solid #eee;
+    width: 80px;
+    height: 80px;
   }
-}
-@media screen and (max-width: 400px) {
+
   header .header-content {
-    display: none;
+    margin-left: -140px;
+    margin-top: 20px;
+  }
+
+  .header-content .profiletext {
+    padding-top: 12px;
+    padding-left: 15px;
+
+    .name {
+      font-size: 14px;
+    }
+    .role {
+      font-size: 25px;
+    }
+    .lang {
+      font-size: 12px;
+    }
   }
 }
 
@@ -151,4 +163,3 @@ nav {
     font-size: 16px;
   }
 }
-
