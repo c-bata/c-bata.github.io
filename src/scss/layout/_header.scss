@@ -1,6 +1,27 @@
 header {
   position: relative;
-  padding: 0 0 30% 0;
+  padding: 0 0 22% 0;
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    padding: 0 0 35% 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  header {
+    padding: 0 0 45% 0;
+
+    .header-content {
+      margin-left: -200px;
+      margin-top: 0px;
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  header .header-content {
+    display: none;
+  }
 }
 
 nav {
@@ -75,21 +96,59 @@ nav {
   background-image: url("/img/eyecatch.jpg");
 }
 
-.profileicon {
+.header-content {
   position: absolute;
-  border: 5px solid #eee;
-
-  width: 150px;
-  height: 150px;
   top: 50%;
   left: 50%;
-  margin-left: -75px;
-  margin-top: -75px;
+  margin-left: -200px;
+  margin-top: -50px;
+
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+}
+
+.profileicon {
+  border: 5px solid #eee;
+
+  width: 120px;
+  height: 120px;
 
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
 
-  background: url(/img/profile.png) no-repeat center center;
+  background-image: url(/img/profile.png);
+  background-attachment: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profiletext {
+  color: #fff;
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+
+  padding-top: 20px;
+  padding-left: 20px;
+
+  .name {
+    font-size: 20px;
+  }
+  .role {
+    font-size: 32px;
+  }
+  .lang {
+    font-size: 16px;
+  }
 }
 
