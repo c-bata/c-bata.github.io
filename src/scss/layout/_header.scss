@@ -46,13 +46,6 @@ nav {
   }
 }
 
-.title-image {
-  @include border-radius(50%);
-  border: 2px solid #ffffff;
-  display: block;
-  width: 30px;
-}
-
 .nav-brand {
   display: flex;
   display: -webkit-flex;
@@ -91,12 +84,16 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
+  .nav {
+    justify-content: space-between;
+  }
+
   nav > .container {
     flex-direction: column;
   }
 
-  .nav {
-    justify-content: space-between;
+  .nav-brand {
+    margin: 0 auto;
   }
 }
 
@@ -127,9 +124,7 @@ nav {
   width: 110px;
   height: 110px;
 
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
+  @include border-radius(50%);
 
   background-image: url(/img/profile.png);
   background-attachment: center;
