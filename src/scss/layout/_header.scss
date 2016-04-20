@@ -122,10 +122,10 @@ nav {
 }
 
 .profileicon {
-  border: 5px solid #eee;
+  border: 4px solid #eee;
 
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
 
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -136,6 +136,25 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  // 6sに1回画像が小さくなるアニメーション
+  animation: scale 6.0s infinite ease-in-out;
+  -webkit-animation: scale 6.0s infinite ease-in-out;
+}
+
+@keyframes scale {
+  94% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+  97% {
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
 }
 
 .profiletext {
