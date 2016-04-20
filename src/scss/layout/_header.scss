@@ -17,7 +17,7 @@ header {
 
   header .header-content {
     margin-left: -140px;
-    margin-top: 20px;
+    margin-top: -20px;
   }
 
   .header-content .profiletext {
@@ -93,7 +93,7 @@ nav {
   }
 
   .nav-brand {
-    margin: 0 auto;
+    display: none;
   }
 }
 
