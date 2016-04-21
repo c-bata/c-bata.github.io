@@ -111,8 +111,9 @@ Web Frontend
 
 <ul class="tag-list">
     <li>React.js</li>
-    <li>Babel(ES6)</li>
-    <li>jQuery</li>
+    <li>Babel(ES2015)</li>
+    <li>Angular2</li>
+    <li>TypeScript</li>
     <li>Sass</li>
     <li>Compass</li>
 </ul>
