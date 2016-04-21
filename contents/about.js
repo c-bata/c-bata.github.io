@@ -22,7 +22,7 @@ export default `
 
 ## Community Activities
 
-- PyCon JP 2015・2016 メディア・スタッフ
+- PyCon JP 2015・2016 メディアスタッフ
 - akashi.py (Python勉強会) 主催
 
 ## Writing Careers

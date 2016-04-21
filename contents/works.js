@@ -33,7 +33,7 @@ export default `
                 </ul>
                 <h2 class="work-card-heading">
                     c-bata.link
-                    <span>This is portfolio website.</span>
+                    <span>This is my portfolio website.</span>
                 </h2>
             </span>
         </a>
@@ -180,17 +180,5 @@ Native Application
     <li>MongoDB</li>
     <li>Redis</li>
 </ul>
-
-### Development Environments
-
-<ul class="tag-list">
-    <li>PyCharm</li>
-    <li>Android Studio</li>
-    <li>Vim</li>
-    <li>tmux</li>
-    <li>Git</li>
-    <li>Mercurial</li>
-</ul>
-
 `
 
