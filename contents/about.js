@@ -1,9 +1,10 @@
 export default `
 ## Profile
 
-こんにちは、芝田 将です。
-趣味や研究でWebアプリ(Django, React.js)やiOS, Androidアプリの開発を行っています。
-プログラミング以外にも釣り、カメラ、スキー、旅行が趣味です。そろそろ登山も始めたい。
+就活も終わったので残りの学生生活の過ごし方をどうしようか考え中。
+趣味ではWebアプリやライブラリ ([Kobin](http://github.com/c-bata/kobin)など) の開発、研究ではiOS, Androidアプリを開発したり機械学習の勉強をしてます。
+最近はインフラへの興味が強くなってきて、Dockerのようなコンテナ仮想化技術やngx_luaの勉強を始めてます。
+あとは釣り、カメラ、旅行が趣味。そろそろ登山も始めたい、というか富士山登りたい。
 
 ## Work Experiences
 
@@ -16,6 +17,7 @@ export default `
 
 - PyCon JP 2015・2016 メディアスタッフ
 - akashi.py (Python勉強会) 主催
+- Code for Kosen
 
 ## Writing Careers
 
