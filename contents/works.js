@@ -9,8 +9,8 @@ export default `
             <img src="/img/works/itukalist.jpg" />
             <span class="work-card-description">
                 <ul class="work-card-skills">
-                    <li>Djagno</li>
-                    <li>Heroku</li>
+                    <li>Python3</li>
+                    <li>Django</li>
                     <li>Sass</li>
                     <li>Twitter Bootstrap</li>
                 </ul>
@@ -21,10 +21,44 @@ export default `
             </span>
         </a>
     </div>
+    <div class="work-card">
+        <a href="https://github.com/c-bata/c-bata.github.io" target="_blank">
+            <img src="/img/works/portfolio.png" />
+            <span class="work-card-description">
+                <ul class="work-card-skills">
+                    <li>HTML5/CSS3</li>
+                    <li>Sass</li>
+                    <li>Compass</li>
+                    <li>Babel(ES2015)</li>
+                </ul>
+                <h2 class="work-card-heading">
+                    c-bata.link
+                    <span>This is portfolio website.</span>
+                </h2>
+            </span>
+        </a>
+    </div>
+    <div class="work-card">
+        <a href="https://github.com/c-bata/kobin/" target="_blank">
+            <img src="/img/works/kobin-todo.jpg" />
+            <span class="work-card-description">
+                <ul class="work-card-skills">
+                    <li>Python3</li>
+                    <li>Kobin</li>
+                    <li>Angular2</li>
+                    <li>TypeScript</li>
+                    <li>Sass</li>
+                </ul>
+                <h2 class="work-card-heading">
+                    Kobin TODO
+                    <span>自作Python製WebフレームワークのExample Application</span>
+                </h2>
+            </span>
+        </a>
+    </div>
 </div>
 
-
-### Smartphone Applications
+### Smartphone Native Applications
 
 <div class="work-card-list">
     <div class="work-card">
