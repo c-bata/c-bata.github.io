@@ -1,14 +1,6 @@
 export default `
 ## Profile
 
-[<i class="fa fa-twitter"></i>](http://twitter.com/c_bata_)
-[<i class="fa fa-facebook"></i>](http://facebook.com/masashi.cbata)
-[<i class="fa fa-github"></i>](http://github.com/c-bata)
-[<i class="fa fa-instagram"></i>](https://www.instagram.com/c_bata_)
-[<i class="fa fa-flickr"></i>](https://www.flickr.com/photos/132186253@N07/albums)
-[<i class="fa fa-slideshare"></i>](http://www.slideshare.net/c-bata)
-[<i class="fa fa-envelope"></i>](mailto:contact@c-bata.link)
-
 こんにちは、芝田 将です。
 趣味や研究でWebアプリ(Django, React.js)やiOS, Androidアプリの開発を行っています。
 プログラミング以外にも釣り、カメラ、スキー、旅行が趣味です。そろそろ登山も始めたい。
