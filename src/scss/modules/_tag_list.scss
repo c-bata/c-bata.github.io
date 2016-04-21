@@ -1,10 +1,16 @@
 ul.tag-list {
-  overflow: hidden;
-  padding-left: 0;
+  padding-left: 0px;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
 
   li {
     list-style-type: none;
-    float: left;
     margin: 3px;
     padding: 5px 8px;
     color: $color_secondary_text;
