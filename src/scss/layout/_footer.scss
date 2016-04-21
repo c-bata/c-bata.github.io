@@ -30,16 +30,12 @@ footer {
   -webkit-align-items: baseline;
 
   li:nth-child(5) {
-    font-size: 22px;
-    flex-grow: 2;
-    -webkit-flex-grow: 2;
     color: #d14233;
+    font-size: 28px;
+    padding: 0 10px;
 
     animation: pulsation 3.0s infinite ease-in-out;
     -webkit-animation: pulsation 3.0s infinite ease-in-out;
-
-    font-size: 28px;
-    padding: 0 10px;
   }
 
   a {
@@ -69,3 +65,4 @@ footer {
     -webkit-transform: scale(1.0);
   }
 }
+
