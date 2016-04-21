@@ -98,7 +98,7 @@ export default `
 
 ### Python
 
-- [Kobin: A very simple web application framework in python](https://github.com/c-bata/kobin)
+- [Kobin: A small and statically-typed web web framework for python](https://github.com/c-bata/kobin)
 - [pandas-validator: Validation Library for pandas's DataFrame and Series.](https://github.com/c-bata/pandas-validator)
 - [django-label-tag-attr: Add css classes and html tag attributes to django form's label.](https://github.com/c-bata/django-label-tag-attr)
 
@@ -109,7 +109,6 @@ export default `
 ### JavaScript
 
 - [mdnote: Markdown editor with React.js, Babel and Electron.](https://github.com/c-bata/mdnote)
-
 
 ### Others
 
@@ -122,10 +121,11 @@ export default `
 
 <ul class="tag-list">
     <li>Python</li>
-    <li>JavaScript</li>
     <li>Golang</li>
     <li>Swift</li>
     <li>Java(Android)</li>
+    <li>JavaScript(ES2015)</li>
+    <li>TypeScript</li>
 </ul>
 
 
