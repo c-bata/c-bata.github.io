@@ -1,8 +1,10 @@
 export default `
 ## Profile
 
+明石高専生のPythonista。
 就活も終わったので残りの学生生活の過ごし方をどうしようか考え中。
-趣味ではWebアプリやライブラリ ([Kobin](http://github.com/c-bata/kobin)など) の開発、研究ではiOS, Androidアプリを開発したり機械学習の勉強をしてます。
+
+趣味ではWebアプリやライブラリ ([Kobin](http://github.com/c-bata/kobin)など) の開発、研究では実験用のiOS, Androidアプリを開発したり、pandas / jupyter / scikit-learnあたりを触ってます。
 最近はインフラへの興味が強くなってきて、Dockerのようなコンテナ仮想化技術やngx_luaの勉強を始めてます。
 あとは釣り、カメラ、旅行が趣味。そろそろ登山も始めたい、というか富士山登りたい。
 
