@@ -13,6 +13,7 @@
     <link href="/public/css/common.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="icon" href="/img/favicon.ico">
+    <base href="/" />
 </head>
 <body>
     <header id="eyecatch">
@@ -22,8 +23,8 @@
                     <h1 class="name">c-bata.link</h1>
                 </a>
                 <ul class="nav">
-                    <li><button id="about">About me</button></li>
-                    <li><button id="works">Works</button></li>
+                    <li><a href="/#/about">About me</a></li>
+                    <li><a href="/#/works">Works</a></li>
                     <li><a href="http://nwpct1.hatenablog.com/" target="_blank">Tech Blog</a></li>
                 </ul>
             </div>
@@ -39,7 +40,7 @@
     </header>
     <main>
         <div class="container">
-			<div id="content" class="contents"></div>
+            <my-app>Now Loading...</my-app>
         </div><!-- container -->
     </main>
     <footer>
@@ -60,6 +61,7 @@
         </div>
     </footer>
     <script src="./public/js/bundle.js"></script>
+    <script src="./public/js/es6bundle.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

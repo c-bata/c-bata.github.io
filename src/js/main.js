@@ -1,25 +1,4 @@
-import marked from 'marked';
-import d3     from 'd3';
-import $      from 'jquery';
-
-// contents
-import article_about from '../../contents/about';
-import article_works from '../../contents/works';
-
-let pages = [
-    { content: marked(article_about),   buttonId: 'about'},
-    { content: marked(article_works),   buttonId: 'works'}
-];
-let content_area = d3.select("#content");
-content_area.html(pages[0].content);
-
-pages.map((page) => {
-    let button = document.getElementById(page.buttonId);
-    button.addEventListener("click", () => {
-        content_area.html(page.content);
-    });
-});
-
+import $ from 'jquery';
 
 // parallax design with jQuery
 $(() => {

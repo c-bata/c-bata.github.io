@@ -9,10 +9,10 @@
 
 
 # JavaScript
+src/ts/*.js
 npm-debug.log
 node_modules/
 *.js.map
-
 
 # Sass
 .sass-cache/
