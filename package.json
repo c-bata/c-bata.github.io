@@ -4,13 +4,11 @@
   "description": "This is c-bata's portfolio web site.",
   "main": "src/jsx/*.jsx",
   "scripts": {
-    "tsc": "tsc -p .",
-    "browserify": "browserify ./src/ts/main.js -o ./public/js/bundle.js",
-    "build": "npm run tsc && npm run browserify",
-    "compass": "compass watch",
-    "watch": "gulp watch",
-    "server": "python -m SimpleHTTPServer 8000",
-    "start": "npm run build && npm run server"
+    "watch": "gulp watch && compass watch",
+    "compile": "gulp compile",
+    "compile:cmd": "tsc -p . && browserify ./src/ts/main.js -o ./public/js/bundle.js",
+    "copy:libs": "gulp copy:libs",
+    "server": "python -m SimpleHTTPServer 8000"
   },
   "repository": {
     "type": "git",
@@ -42,4 +40,3 @@
     "watchify": "^3.3.1"
   }
 }
-

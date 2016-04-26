@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es6",
+    "outDir": "public/js",
+    "module": "system",
+    "target": "es5",
     "noImplicitAny": false,
+    "removeComments": false,
     "sourceMap": false,
     "moduleResolution": "node",
     "experimentalDecorators": true,

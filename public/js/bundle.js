@@ -70528,4 +70528,3 @@ WorksComponent = __decorate([
 exports.WorksComponent = WorksComponent;
 
 },{"angular2/core":3}]},{},[626]);
-

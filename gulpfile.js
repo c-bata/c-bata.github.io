@@ -7,30 +7,34 @@ var source     = require('vinyl-source-stream');
 var buffer     = require('vinyl-buffer');
 var watchify   = require('gulp-watchify');
 var sourcemaps = require('gulp-sourcemaps');
+var tscConfig  = require('./tsconfig.json');
 
 var paths = {
   BUILD: "./public/js/",
   SRC: "./src/ts/",
   OUT: "bundle.js",
+  // ES6用
   ES6_SRC: "./src/js/",
-  ES6_OUT: "es6bundle.js",
+  ES6_OUT: "es6bundle.js"
 };
 
-gulp.task('tsc', function() {
-    gulp.src(paths.SRC)
-        .pipe(typescript({module:"commonjs"}))
-        .pipe(gulp.dest(paths.SRC));
+gulp.task('compile', function () {
+  return gulp.src(tscConfig.files)
+    .pipe(sourcemaps.init())
+    .pipe(typescript(tscConfig.compilerOptions))
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest(paths.BUILD));
 });
 
-gulp.task('browserify', function() {
-    browserify({entries: [paths.SRC + "main.js"]})
-        .bundle()
-        .on('error', function(err) {
-            console.log(err.message);
-            this.emit('end');
-        })
-        .pipe(source(paths.OUT))
-        .pipe(gulp.dest(paths.BUILD));
+gulp.task('copy:libs', function() {
+  return gulp.src([
+      'node_modules/angular2/bundles/angular2-polyfills.js',
+      'node_modules/systemjs/dist/system.src.js',
+      'node_modules/rxjs/bundles/Rx.js',
+      'node_modules/angular2/bundles/angular2.dev.js',
+      'node_modules/angular2/bundles/router.js'
+    ])
+    .pipe(gulp.dest(paths.BUILD))
 });
 
 gulp.task('es6-build', function() {
@@ -47,8 +51,7 @@ gulp.task('es6-build', function() {
 )});
 
 gulp.task('watch', function() {
-    gulp.watch('./src/{js,ts}/*', ['tsc', 'browserify', 'es6-build'])
+    gulp.watch('./src/{js,ts}/*', ['compile', 'es6-build'])
 });
 
-gulp.task('default', ['tsc', 'browserify', 'es6-build', 'watch']);
-
+gulp.task('default', ['copy:libs', 'watch']);
