@@ -108,6 +108,12 @@
       -moz-filter: brightness(0.3);
       -o-filter: brightness(0.3);
       filter: brightness(0.3);
+      // 写真を拡大
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      transform: scale(1.1);
     }
   }
 }
