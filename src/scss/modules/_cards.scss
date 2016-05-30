@@ -109,11 +109,9 @@
       -o-filter: brightness(0.3);
       filter: brightness(0.3);
       // 写真を拡大
-      -webkit-transform: scale(1.1);
-      -moz-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-      -o-transform: scale(1.1);
-      transform: scale(1.1);
+      animation-name: scaleImage;
+      animation-duration: 0.3s;
+      animation-timing-function: ease-in-out;
     }
   }
 }
@@ -122,22 +120,35 @@
 @media screen and (min-width: 480px) {
   .work-card:hover .work-card-skills {
     animation-name: slideIn;
-    animation-duration: 0.4s;
+    animation-duration: 0.3s;
     animation-timing-function: ease-in-out;
+  }
+}
+
+@keyframes scaleImage {
+  80% {
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    transform: scale(1.06);
   }
 }
 
 @keyframes slideIn {
   from {
     -webkit-transform: translate(100%,0);
+    -moz-transform: translate(100%,0);
+    -ms-transform: translate(100%,0);
+    -o-transform: translate(100%,0);
     transform: translate(100%,0);
   }
   80% {
     -webkit-transform: translate(-3%,0);
+    -moz-transform: translate(-3%,0);
+    -ms-transform: translate(-3%,0);
+    -o-transform: translate(-3%,0);
     transform: translate(-3%,0);
   }
-  to {
-    -webkit-transform: translate(0,0);
-    transform: translate(0.0);
-  }
 }
+
