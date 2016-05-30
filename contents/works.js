@@ -133,6 +133,7 @@ export default `
 ### Python
 
 - [pandas-validator: Validation Library for pandas's DataFrame and Series.](https://github.com/c-bata/pandas-validator)
+- [outlier-utils: Utility library for detecting and removing outliers from normally distributed datasets](https://github.com/c-bata/outlier-utils)
 - [django-label-tag-attr: Add css classes and html tag attributes to django form's label.](https://github.com/c-bata/django-label-tag-attr)
 
 ### Android
