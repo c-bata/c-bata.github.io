@@ -11,32 +11,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 require('core-js');
 require('rxjs/Rx');
 require('zone.js/dist/zone');
-var platform_browser_dynamic_1 = require('@angular/platform-browser-dynamic');
 var core_1 = require('@angular/core');
-var HelloWorldComponent = (function () {
-    function HelloWorldComponent() {
-    }
-    HelloWorldComponent = __decorate([
-        core_1.Component({
-            selector: 'hello-world',
-            template: "\n    <h1>Hello World!</h1>\n  "
-        }), 
-        __metadata('design:paramtypes', [])
-    ], HelloWorldComponent);
-    return HelloWorldComponent;
-}());
+var platform_browser_dynamic_1 = require('@angular/platform-browser-dynamic');
+var router_1 = require('@angular/router');
+var app_routes_1 = require('./app.routes');
+var common_1 = require("@angular/common");
 var MyAppComponent = (function () {
     function MyAppComponent() {
+        this.title = 'A Tour of Heroes';
     }
     MyAppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n    <hello-world></hello-world>\n  ",
-            directives: [HelloWorldComponent]
+            directives: [router_1.ROUTER_DIRECTIVES],
+            template: "\n    <h1>{{title}}</h1>\n    <router-outlet></router-outlet>\n  "
         }), 
         __metadata('design:paramtypes', [])
     ], MyAppComponent);
     return MyAppComponent;
 }());
-platform_browser_dynamic_1.bootstrap(MyAppComponent);
+exports.MyAppComponent = MyAppComponent;
+platform_browser_dynamic_1.bootstrap(MyAppComponent, [
+    app_routes_1.appRouteProviders,
+    { provide: common_1.LocationStrategy, useClass: common_1.HashLocationStrategy }
+])
+    .catch(function (err) { return console.error(err); });
 //# sourceMappingURL=index.js.map
