@@ -62,22 +62,21 @@
 	var router_1 = __webpack_require__(893);
 	var app_routes_1 = __webpack_require__(912);
 	var common_1 = __webpack_require__(677);
-	var MyAppComponent = (function () {
-	    function MyAppComponent() {
-	        this.title = 'A Tour of Heroes';
+	var AppComponent = (function () {
+	    function AppComponent() {
 	    }
-	    MyAppComponent = __decorate([
+	    AppComponent = __decorate([
 	        core_1.Component({
 	            selector: 'my-app',
 	            directives: [router_1.ROUTER_DIRECTIVES],
-	            template: "\n    <h1>{{title}}</h1>\n    <router-outlet></router-outlet>\n  "
+	            template: "<router-outlet></router-outlet>"
 	        }), 
 	        __metadata('design:paramtypes', [])
-	    ], MyAppComponent);
-	    return MyAppComponent;
+	    ], AppComponent);
+	    return AppComponent;
 	}());
-	exports.MyAppComponent = MyAppComponent;
-	platform_browser_dynamic_1.bootstrap(MyAppComponent, [
+	exports.AppComponent = AppComponent;
+	platform_browser_dynamic_1.bootstrap(AppComponent, [
 	    app_routes_1.appRouteProviders,
 	    { provide: common_1.LocationStrategy, useClass: common_1.HashLocationStrategy }
 	])
@@ -73752,6 +73751,29 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
+	var router_1 = __webpack_require__(893);
+	var top_component_1 = __webpack_require__(913);
+	var works_component_1 = __webpack_require__(914);
+	var routes = [
+	    {
+	        path: '',
+	        component: top_component_1.TopComponent
+	    },
+	    {
+	        path: 'works',
+	        component: works_component_1.WorksComponent
+	    }
+	];
+	exports.appRouteProviders = [
+	    router_1.provideRouter(routes)
+	];
+	//# sourceMappingURL=app.routes.js.map
+
+/***/ },
+/* 913 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
 	var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
 	    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
 	    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -73761,60 +73783,51 @@
 	var __metadata = (this && this.__metadata) || function (k, v) {
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
-	var router_1 = __webpack_require__(893);
 	var core_1 = __webpack_require__(587);
-	var HelloWorldComponent = (function () {
-	    function HelloWorldComponent() {
+	var TopComponent = (function () {
+	    function TopComponent() {
 	    }
-	    HelloWorldComponent = __decorate([
+	    TopComponent = __decorate([
 	        core_1.Component({
-	            selector: 'my-hello',
-	            template: "\n    <p>Hello World!</p>\n  "
+	            selector: 'my-top',
+	            templateUrl: './src/ts/top.component.html'
 	        }), 
 	        __metadata('design:paramtypes', [])
-	    ], HelloWorldComponent);
-	    return HelloWorldComponent;
+	    ], TopComponent);
+	    return TopComponent;
 	}());
-	var HeroesComponent = (function () {
-	    function HeroesComponent() {
-	    }
-	    HeroesComponent = __decorate([
-	        core_1.Component({
-	            selector: 'my-hero',
-	            template: "\n    <h1>Hero</h1>\n    <my-hello></my-hello>\n  ",
-	            directives: [HelloWorldComponent]
-	        }), 
-	        __metadata('design:paramtypes', [])
-	    ], HeroesComponent);
-	    return HeroesComponent;
-	}());
+	exports.TopComponent = TopComponent;
+	//# sourceMappingURL=top.component.js.map
+
+/***/ },
+/* 914 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+	    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+	    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+	    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+	    return c > 3 && r && Object.defineProperty(target, key, r), r;
+	};
+	var __metadata = (this && this.__metadata) || function (k, v) {
+	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+	};
+	var core_1 = __webpack_require__(587);
 	var WorksComponent = (function () {
 	    function WorksComponent() {
 	    }
 	    WorksComponent = __decorate([
 	        core_1.Component({
 	            selector: 'my-works',
-	            template: "\n    <h1>Works</h1>\n    <my-hello></my-hello>\n  ",
-	            directives: [HelloWorldComponent]
+	            templateUrl: './src/ts/works.component.html'
 	        }), 
 	        __metadata('design:paramtypes', [])
 	    ], WorksComponent);
 	    return WorksComponent;
 	}());
-	var routes = [
-	    {
-	        path: '',
-	        component: HeroesComponent
-	    },
-	    {
-	        path: 'works',
-	        component: WorksComponent
-	    }
-	];
-	exports.appRouteProviders = [
-	    router_1.provideRouter(routes)
-	];
-	//# sourceMappingURL=app.routes.js.map
+	exports.WorksComponent = WorksComponent;
+	//# sourceMappingURL=works.component.js.map
 
 /***/ }
 /******/ ]);

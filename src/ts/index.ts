@@ -12,16 +12,12 @@ import {LocationStrategy, HashLocationStrategy} from "@angular/common";
 @Component({
     selector: 'my-app',
     directives: [ROUTER_DIRECTIVES],
-    template: `
-    <h1>{{title}}</h1>
-    <router-outlet></router-outlet>
-  `
+    template: `<router-outlet></router-outlet>`
 })
-export class MyAppComponent {
-    title = 'A Tour of Heroes';
+export class AppComponent {
 }
 
-bootstrap(MyAppComponent, [
+bootstrap(AppComponent, [
     appRouteProviders,
     { provide: LocationStrategy, useClass: HashLocationStrategy}
 ])

@@ -16,22 +16,21 @@ var platform_browser_dynamic_1 = require('@angular/platform-browser-dynamic');
 var router_1 = require('@angular/router');
 var app_routes_1 = require('./app.routes');
 var common_1 = require("@angular/common");
-var MyAppComponent = (function () {
-    function MyAppComponent() {
-        this.title = 'A Tour of Heroes';
+var AppComponent = (function () {
+    function AppComponent() {
     }
-    MyAppComponent = __decorate([
+    AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
             directives: [router_1.ROUTER_DIRECTIVES],
-            template: "\n    <h1>{{title}}</h1>\n    <router-outlet></router-outlet>\n  "
+            template: "<router-outlet></router-outlet>"
         }), 
         __metadata('design:paramtypes', [])
-    ], MyAppComponent);
-    return MyAppComponent;
+    ], AppComponent);
+    return AppComponent;
 }());
-exports.MyAppComponent = MyAppComponent;
-platform_browser_dynamic_1.bootstrap(MyAppComponent, [
+exports.AppComponent = AppComponent;
+platform_browser_dynamic_1.bootstrap(AppComponent, [
     app_routes_1.appRouteProviders,
     { provide: common_1.LocationStrategy, useClass: common_1.HashLocationStrategy }
 ])
