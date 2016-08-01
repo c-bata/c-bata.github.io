@@ -1,13 +1,12 @@
 {
-  "name": "c-batafolio",
-  "version": "0.0.1",
+  "name": "cbata-portfolio",
+  "version": "1.0.0",
   "description": "This is c-bata's portfolio web site.",
-  "main": "src/jsx/*.jsx",
+  "main": "src/ts/index.ts",
   "scripts": {
     "tsc": "tsc -p .",
     "webpack": "webpack ./src/ts/index.js --output-filename ./public/js/bundle.js",
     "build": "npm run tsc && npm run webpack",
-    "watch": "gulp watch",
     "compass": "compass watch",
     "server": "python -m SimpleHTTPServer 8000"
   },
