@@ -1,5 +1,5 @@
 import {Component} from "@angular/core";
-import {Card} from "./card.component";
+import {Card} from "ng2-card/ng2-card";
 import {Tags} from "./tags.component";
 
 @Component({
