@@ -131,25 +131,6 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  // 6sに1回画像が小さくなるアニメーション
-  animation: scale 6.0s infinite ease-in-out;
-  -webkit-animation: scale 6.0s infinite ease-in-out;
-}
-
-@keyframes scale {
-  94% {
-    transform: scale(1.0);
-    -webkit-transform: scale(1.0);
-  }
-  97% {
-    transform: scale(0.95);
-    -webkit-transform: scale(0.95);
-  }
-  100% {
-    transform: scale(1.0);
-    -webkit-transform: scale(1.0);
-  }
 }
 
 .profiletext {
