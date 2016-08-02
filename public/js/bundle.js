@@ -67,7 +67,7 @@
 	    }
 	    AppComponent = __decorate([
 	        core_1.Component({
-	            selector: 'my-app',
+	            selector: "my-app",
 	            directives: [router_1.ROUTER_DIRECTIVES],
 	            template: "<router-outlet></router-outlet>"
 	        }), 
@@ -73756,11 +73756,11 @@
 	var works_component_1 = __webpack_require__(914);
 	var routes = [
 	    {
-	        path: '',
+	        path: "",
 	        component: top_component_1.TopComponent
 	    },
 	    {
-	        path: 'works',
+	        path: "works",
 	        component: works_component_1.WorksComponent
 	    }
 	];
@@ -73789,8 +73789,8 @@
 	    }
 	    TopComponent = __decorate([
 	        core_1.Component({
-	            selector: 'my-top',
-	            templateUrl: './src/ts/top.component.html'
+	            selector: "my-top",
+	            templateUrl: "./src/ts/top.component.html"
 	        }), 
 	        __metadata('design:paramtypes', [])
 	    ], TopComponent);
@@ -73815,14 +73815,15 @@
 	};
 	var core_1 = __webpack_require__(587);
 	var card_component_1 = __webpack_require__(915);
+	var tags_component_1 = __webpack_require__(916);
 	var WorksComponent = (function () {
 	    function WorksComponent() {
 	    }
 	    WorksComponent = __decorate([
 	        core_1.Component({
-	            selector: 'my-works',
-	            templateUrl: './src/ts/works.component.html',
-	            directives: [card_component_1.Card],
+	            selector: "my-works",
+	            templateUrl: "./src/ts/works.component.html",
+	            directives: [card_component_1.Card, tags_component_1.Tags],
 	        }), 
 	        __metadata('design:paramtypes', [])
 	    ], WorksComponent);
@@ -73850,7 +73851,7 @@
 	    function Card() {
 	    }
 	    Card.prototype.getTags = function () {
-	        return this.tags.split(',');
+	        return this.tags.split(",");
 	    };
 	    __decorate([
 	        core_1.Input(), 
@@ -73874,7 +73875,7 @@
 	    ], Card.prototype, "subtitle", void 0);
 	    Card = __decorate([
 	        core_1.Component({
-	            selector: 'card',
+	            selector: "card",
 	            template: "\n    <div class=\"card\">\n        <a href=\"{{linkUrl}}\" target=\"_blank\">\n            <img src=\"{{imageUrl}}\" />\n            <span class=\"card-description\">\n                <ul class=\"card-tags\">\n                    <li *ngFor=\"let tag of getTags()\">{{tag}}</li>\n                </ul>\n                <h2 class=\"card-heading\">\n                    {{title}}\n                    <span>{{subtitle}}</span>\n                </h2>\n            </span>\n        </a>\n    </div>\n    ",
 	            styles: ["\n        .card {\n          overflow: hidden;\n          position: relative;\n        }\n\n        .card > a {\n          padding: 0;\n        }\n        .card img {\n          width: 100%;\n          height: auto;\n        }\n\n        .card .card-description {\n          display: flex;\n          display: -webkit-flex;\n          flex-direction: column;\n          align-content: flex-end;\n          padding: 20px;\n          position: absolute;\n          bottom: 10px;\n        }\n        \n        .card-tags {\n          font-size: 10px;\n          color: #ffffff;\n          padding: 0;\n          margin: 0;\n        }\n\n        .card-tags  > li {\n          list-style-type: none;\n          border: 1px solid #ffffff;\n          float: left;\n          margin: 3px;\n          padding: 4px;\n        }\n        \n        .card-heading {\n          font-size: 22px;\n          font-weight: bold;\n          line-height: normal;\n          margin: 10px 0 0 0;\n          color: #ffffff;\n          padding-left: 2px;\n        }\n\n        .card-heading > span {\n          font-size: 16px;\n          font-weight: normal;\n        }\n        \n        .card-description {\n          visibility: hidden;\n        }\n        .card:hover .card-description {\n          visibility: visible;\n        }\n\n        .card:hover img {\n          -webkit-transition: 0.3s ease-in;\n          -moz-transition: 0.3s ease-in;\n          -o-transition: 0.3s ease-in;\n          transition: 0.3s ease-in;\n          \n          -webkit-filter: brightness(0.3);\n          -moz-filter: brightness(0.3);\n          -o-filter: brightness(0.3);\n          filter: brightness(0.3);\n          \n          animation-name: scaleImage;\n          animation-duration: 0.3s;\n          animation-timing-function: ease-in-out;\n        }\n        \n        .card:hover .card-tags {\n          animation-name: slideIn;\n          animation-duration: 0.3s;\n          animation-timing-function: ease-in-out;\n        }\n\n        @keyframes scaleImage {\n          80% {\n            -webkit-transform: scale(1.06);\n            -moz-transform: scale(1.06);\n            -ms-transform: scale(1.06);\n            -o-transform: scale(1.06);\n            transform: scale(1.06);\n          }\n        }\n        \n        @keyframes slideIn {\n          from {\n            -webkit-transform: translate(100%,0);\n            -moz-transform: translate(100%,0);\n            -ms-transform: translate(100%,0);\n            -o-transform: translate(100%,0);\n            transform: translate(100%,0);\n          }\n          80% {\n            -webkit-transform: translate(-3%,0);\n            -moz-transform: translate(-3%,0);\n            -ms-transform: translate(-3%,0);\n            -o-transform: translate(-3%,0);\n            transform: translate(-3%,0);\n          }\n        }\n    "],
 	        }), 
@@ -73884,6 +73885,44 @@
 	}());
 	exports.Card = Card;
 	//# sourceMappingURL=card.component.js.map
+
+/***/ },
+/* 916 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+	    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+	    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+	    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+	    return c > 3 && r && Object.defineProperty(target, key, r), r;
+	};
+	var __metadata = (this && this.__metadata) || function (k, v) {
+	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+	};
+	var core_1 = __webpack_require__(587);
+	var Tags = (function () {
+	    function Tags() {
+	    }
+	    Tags.prototype.getItems = function () {
+	        return this.items.split(",");
+	    };
+	    __decorate([
+	        core_1.Input(), 
+	        __metadata('design:type', String)
+	    ], Tags.prototype, "items", void 0);
+	    Tags = __decorate([
+	        core_1.Component({
+	            selector: "tags",
+	            template: "\n    <ul>\n        <li *ngFor=\"let item of getItems()\">{{item}}</li>\n    </ul>\n    ",
+	            styles: ["\n    ul {\n      padding-left: 0px;\n      display: flex;\n      display: -webkit-flex;\n      flex-direction: row;\n      -webkit-flex-direction: row;\n      justify-content: flex-start;\n      -webkit-justify-content: flex-start;\n      flex-wrap: wrap;\n      -webkit-flex-wrap: wrap;\n    }\n    li {\n      list-style-type: none;\n      margin: 3px;\n      padding: 5px 8px;\n      color: rgba(0, 0, 0, 0.54);\n      border-radius: 5px;\n      border: 1px solid rgba(0, 0, 0, 0.54);\n    }\n    "],
+	        }), 
+	        __metadata('design:paramtypes', [])
+	    ], Tags);
+	    return Tags;
+	}());
+	exports.Tags = Tags;
+	//# sourceMappingURL=tags.component.js.map
 
 /***/ }
 /******/ ]);
