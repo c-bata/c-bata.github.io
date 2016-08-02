@@ -1,7 +1,7 @@
-import {Component, Input} from '@angular/core';
+import {Component, Input} from "@angular/core";
 
 @Component({
-    selector: 'card',
+    selector: "card",
     template: `
     <div class="card">
         <a href="{{linkUrl}}" target="_blank">
@@ -136,6 +136,6 @@ export class Card {
     @Input() subtitle: string;
 
     getTags() {
-        return this.tags.split(',');
+        return this.tags.split(",");
     }
 }

@@ -7,6 +7,7 @@
     "tsc": "tsc -p .",
     "webpack": "webpack ./src/ts/index.js --output-filename ./public/js/bundle.js",
     "build": "npm run tsc && npm run webpack",
+    "tslint": "tslint src/ts/*.ts",
     "compass": "compass watch",
     "server": "python -m SimpleHTTPServer 8000"
   },
@@ -20,6 +21,7 @@
   "homepage": "http://c-bata.link",
   "devDependencies": {
     "browserify": "^13.1.0",
+    "tslint": "^3.14.0",
     "typescript": "^1.8.10",
     "webpack": "^1.13.1"
   },
