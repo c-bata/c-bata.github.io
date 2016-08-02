@@ -2,12 +2,14 @@ import "core-js";
 import "rxjs/Rx";
 import "zone.js/dist/zone";
 
-import {Component} from "@angular/core";
+import {Component, enableProdMode} from "@angular/core";
 import {bootstrap} from "@angular/platform-browser-dynamic";
 import {ROUTER_DIRECTIVES} from "@angular/router";
 
 import {appRouteProviders} from "./app.routes";
 import {LocationStrategy, HashLocationStrategy} from "@angular/common";
+
+enableProdMode();
 
 @Component({
     selector: "my-app",
