@@ -3,7 +3,7 @@
   position: absolute;
   top: 50%; left: 50%;
   margin: 100px auto;
-  background: #f39c12;
+  background: #efc380;
   animation: rotation ease-in-out 2s infinite;
   border-radius: 30px;
 }
@@ -12,7 +12,7 @@
   border-width: 0 20px 30px 20px;
   border-style: solid;
   border-color: transparent;
-  border-bottom-color: #e74c3c;
+  border-bottom-color: #d62c1a;
   height: 0; width: 0;
   position: absolute;
   left: 10px; top: -10px;
@@ -37,6 +37,6 @@
 }
 
 @keyframes fadecolor {
-    0% {border-bottom-color: #eee;}
-    100%{border-bottom-color: #67cbf0;}
+    0% {border-bottom-color: #ea6153;}
+    100%{border-bottom-color: #d62c1a;}
 }
