@@ -5,7 +5,7 @@
   "main": "src/ts/index.ts",
   "scripts": {
     "tsc": "tsc -p .",
-    "webpack": "webpack ./src/ts/index.js --output-filename ./public/js/bundle.js",
+    "webpack": "webpack --optimize-minimize ./src/ts/index.js --output-filename ./public/js/bundle.js",
     "build": "npm run tsc && npm run webpack",
     "tslint": "tslint src/ts/*.ts",
     "compass": "compass watch",
