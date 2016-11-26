@@ -2,8 +2,9 @@ $size_max: 980px;
 $size_min: 320px;
 
 /* google web fonts */
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300);
-@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+// Don't import this to fix performance issue.
+// @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300);
+// @import url(https://fonts.googleapis.com/css?family=Raleway:300);
 
 /* color */
 $accent_color: #af430a;
